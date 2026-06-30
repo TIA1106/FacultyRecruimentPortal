@@ -1,0 +1,29 @@
+{
+  "file_name": "5a7c3bfb_Doc1.docx",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\5a7c3bfb_Doc1.docx",
+  "extraction_method": "docx",
+  "parsed": {
+    "name": "John Heartman",
+    "headline": "Certified Nursing Assistant with over 10 years of experience in patient",
+    "location": "",
+    "email": "John.Heartman@example.com",
+    "phone": "(555)555-5555",
+    "summary": "",
+    "links": [],
+    "education": [
+      "2014-05 Master of Science: Healthcare",
+      "University of ilinois - Champaign, ilinois",
+      "2012-05 Bachelor of Science: Nursing | llinois State University - Normal, ilinois",
+      "llinois State University - Normal, ilinois"
+    ],
+    "skills": [],
+    "experience": [
+      "2022-02 - Certified Nursing Assistant | eal Harmony Health Center, Seattle, WA * Elevated patient care through 15% efficiency | boost | \"+ Managed 20 patient charts daily using EMR | systems | + Reduced patient wait times by 30 minutes on | average",
+      "2017-01 - Healthcare Assistant",
+      "2022-01 Greenfield Hospital. Redmond, WA | + Implemented care plans for 50+ patients weekly | + Assisted in reducing hospital readmission by 10% | + Led patient feedback sessions, enhancing care | by 20%",
+      "2015-01 - Patient Care Technician",
+      "2016-12 \"Meadowbrook Clinic. Bellevue, WA | + Facilitated 100+ patient appointments monthly | + Trained 5 new caregivers, improving team skils | + Collaborated on a project. saving $10k annually"
+    ],
+    "publications": []
+  }
+}

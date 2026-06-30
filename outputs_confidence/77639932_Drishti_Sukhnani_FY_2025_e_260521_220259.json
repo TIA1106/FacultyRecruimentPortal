@@ -1,0 +1,44 @@
+{
+  "file_name": "77639932_Drishti_Sukhnani_FY_2025_e_260521_220259.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\77639932_Drishti_Sukhnani_FY_2025_e_260521_220259.pdf",
+  "extraction_method": "pdf",
+  "parsed": {
+    "name": "Drishti Sukhnani",
+    "headline": "Solindore@nmims.edu./LL: 0731-2581508",
+    "location": "",
+    "email": "Solindore@nmims.edu",
+    "phone": "",
+    "summary": "",
+    "links": [
+      "https://www.linkedin.com/in/drishti-sukhnani-b51016222"
+    ],
+    "education": [
+      "2021-2026 | BBA LLB | NMIMS School of Law - Indore (CGPA)",
+      "2020 | XII | St. Anne\"s Senior Secondary School, Jodhpur, Rajasthan",
+      "2018 | X | St. Anne\"s Senior Secondary School, Jodhpur, Rajasthan"
+    ],
+    "skills": [
+      "Research"
+    ],
+    "experience": [
+      "The Insurance Lawyer Group (Insurance Law) (November 2025 - January 2026) - | Analyzed complex legal issues by applying statutory interpretation and case law principles, such as evaluating | material non-disclosure under Section 45 of the Insurance Act and supporting conclusions with relevant | precedents. - | Conducted detailed research on consumer protection and medical negligence, including studying statutory",
+      "definitions (Sections 2(11) & 2(42) of CPA, 2019), evidentiary doctrines like res ipsa loquitur, and landmark | judgments to support legal reasoning. -",
+      "Examined insurer rights and policyholder obligations by assessing how non-disclosure, misrepresentation, and | fraudulent suppression of facts affect claim validity, particularly in life and health insurance disputes. - | Reviewed judicial interpretations of insurance contracts, focusing on how courts evaluate materiality, good | faith, and the burden of proof in claim repudiation cases, strengthening the ability to connect statutory | provisions with practical outcomes. -",
+      "Pitambara Law Associates (Contract Law & Corporate Law) (October 2025) - | Conducted in-depth legal research on key provisions of the Societies Registration Act, Negotiable | Instruments Act, and Limited Liability Partnership Act, synthesizing findings into structured research notes | for senior review. -",
+      "Analyzed landmark judicial precedents, including SCBA v. Registrar of Societies and SMS Pharmaceuticals | v. Neeta Bhalla, to assess their implications on statutory interpretation and liability principles. - | Prepared concise analytical briefs on Sections 138 and 141 of the Negotiable Instruments Act, focusing on | vicarious liability and corporate accountability frameworks. -"
+    ],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.95,
+      "phone": 0.1,
+      "headline": 0.7,
+      "summary": 0.25,
+      "links": 0.9,
+      "education": 0.85,
+      "skills": 0.85,
+      "experience": 0.8,
+      "publications": 0.15
+    }
+  }
+}

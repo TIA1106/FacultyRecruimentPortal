@@ -1,0 +1,77 @@
+{
+  "name": "TIA SUKHNANNI",
+  "headline": "Jaipur, Rajasthan, India",
+  "location": "",
+  "email": "tiasukhnannis@gmail.com",
+  "phone": "7240017609",
+  "summary": "Computer Science (AI) student with hands-on experience in full-stack development and machine learning, building and deploying real-world applications using React, Node.js, MongoDB, and Next.js.Focused on practical problem-solving through clean engineering and rapid learning.",
+  "links": [],
+  "education": [
+    "B.Tech - Computer Science & Engineering (AI) | JK Lakshmipat University (JKLU), Jaipur - 8.86 / 10"
+  ],
+  "skills": [
+    "Data Analysis",
+    "Data Science",
+    "Data Visualization",
+    "Deep Learning",
+    "Git",
+    "Javascript",
+    "Machine Learning",
+    "MongoDB",
+    "MySQL",
+    "Node.js",
+    "Numpy",
+    "Pandas",
+    "Python",
+    "React",
+    "scikit-learn",
+    "SQL"
+  ],
+  "experience": [
+    "Hackathon Participant | LNMIIT",
+    "January 2026 - January 2026 Jaipur | , - Participated in LNMHACKS 8.0, building a Web3-based web application under tight time constraints. | Coordinator | JKLU",
+    "September 2025 - September 2025 Jaipur | , - Coordinator organizer of Tug of War event, managing team formation, fixtures, and match operations. - Developed coordination, and event management skills under real-time constraints."
+  ],
+  "publications": [],
+  "projects": [
+    "CarePlus - Full-Stack Healthcare Platform careplus-tau.vercel.app",
+    "Designed and developed a full-stack clinic management system enabling online doctor appointments, real-time queue management, and virtual consultations.",
+    "BOLI AI Language Tutor - HackJKLU Pre-Hackathon 2026 github.com/TIA1106/HackJKLU - February 2026 - February 2026",
+    "AI-driven conversational language tutor with adaptive quizzes, flashcards, and progress analytics.",
+    "Built using Next.js, TypeScript, and NVIDIA NIM for real-time LLM inference.",
+    "st Runner-Up - HackJKLU Pre-Hackathon 2026 (24 hrs).",
+    "TiaType Pro-AI-First Blogging Platform github.com/TIA1106/tiatype-pro - July 2025 - July 2025",
+    "Built an AI-first blogging platform using Next.js and AI APIs, enabling AI-powered content creation and editing workflows."
+  ],
+  "achievements": [
+    "st Runner Up - HackJKLU Pre-Hackathon 2026 (24-Hour Hackathon)",
+    "JK Lakshmipat University,Jaipur - 2026",
+    "Secured runner-up position among 66 multiple teams by building a working prototype under strict time constraints.Awarded ₹4,000 prize; recognized by WsCube Tech for innovation and execution.",
+    "IBM Data Science Professional Certificate"
+  ],
+  "certificates": [
+    "real-world datasets, applied statistical concepts, and followed industry-standard data science workflows through hands-on labs and a capstone project."
+  ],
+  "awards": [],
+  "involvement": [],
+  "memberships": [],
+  "administrative_works": [],
+  "workshops": [],
+  "advt_no": "",
+  "registration_no": "REG-2026-5893",
+  "post_applied_for": "Jaipur, Rajasthan, India",
+  "specialisation": "Computer Science & Engineering",
+  "dob": "",
+  "age": "",
+  "father_name": "",
+  "mother_name": "",
+  "nationality": "",
+  "place_of_birth": "",
+  "gender_marital_status": "",
+  "category": "",
+  "religion": "",
+  "husband_name": "",
+  "other_category": "",
+  "thesis_info": [],
+  "referees": []
+}

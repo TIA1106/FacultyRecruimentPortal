@@ -1,0 +1,26 @@
+{
+  "name": "TIA SUKHNANNI",
+  "email": "tiasukhnannis@gmail.com",
+  "phone": "7240017609",
+  "education": [
+    "JK Lakshmipat University,Jaipur - 2026",
+    "LNMIIT, January 2026 - January 2026",
+    "B.Tech in Computer Science and Artificial Intelligence, JK Lakshmipat University (JKLU) - Jaipur - 8.826/10",
+    "JK Lakshmipat University (JKLU) - Jaipur - 8.826/10"
+  ],
+  "skills": [
+    "CSS",
+    "Data Science",
+    "Javascript",
+    "Mongodb",
+    "Node.Js",
+    "Postgresql",
+    "Python",
+    "React"
+  ],
+  "experience": [
+    "Hackathon Participant | LNMIIT",
+    "January 2026 - January 2026 | Jaipur | , - Developed a decentralized Web3 web application under rigorous time constraints during a fast-paced hackathon environment. - Acquired practical expertise in Web3 architecture, including the integration and deployment of blockchain smart contracts."
+  ],
+  "publications": []
+}

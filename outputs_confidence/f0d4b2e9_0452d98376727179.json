@@ -1,0 +1,36 @@
+{
+  "file_name": "f0d4b2e9_0452d98376727179.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\f0d4b2e9_0452d98376727179.pdf",
+  "extraction_method": "ocr_preprocessed",
+  "parsed": {
+    "name": "Howard Jones",
+    "headline": "° £apenenced and deca sted Semor Ac COURLIM. bringing forth several yes of",
+    "location": "",
+    "email": "",
+    "phone": "917 324 2121",
+    "summary": "",
+    "links": [],
+    "education": [
+      "B.S. Accounting. Marist College. Poughkeepsie | High School Diploma, Somers High School, Somers",
+      "High School Diploma, Somers High School, Somers"
+    ],
+    "skills": [],
+    "experience": [
+      "Senior Accountant , Addco Resources, New York | © Controtied duty input of ledger activites and clowung of penerad indger each | month | © Prepared accurate Quartetty and annual statements | © Wrepared annual sudied financ wil statements | @ Worked closely wih other departments and worked to wive complies | oC Counting problems | © Provided comparaine anatyus of Actual resutte vs Forecast thruughout the | year | © Emwured adherence to nternal Control over ihe clove process cach month | © Utded intemal financial software to enorowe the accounting timing. and | eflectiveness of reports | Stall Accountant . Vessel. New York | © Asssted in the renew and prepor ation of fenunc ul reports for sereor | mranagement",
+      "© Documented processes and prox edures a4 part of internal control and | departmental traneng. | © Cantnbuted to the upkeep and rewew of balance shiret accounts to entire | am Curacy | © Adeted to al monihty reporting comphance de adhnes"
+    ],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.1,
+      "phone": 0.9,
+      "headline": 0.7,
+      "summary": 0.25,
+      "links": 0.2,
+      "education": 0.5,
+      "skills": 0.15,
+      "experience": 0.5,
+      "publications": 0.15
+    }
+  }
+}

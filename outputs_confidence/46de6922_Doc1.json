@@ -1,0 +1,33 @@
+{
+  "file_name": "46de6922_Doc1.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\46de6922_Doc1.pdf",
+  "extraction_method": "ocr_preprocessed",
+  "parsed": {
+    "name": "JACK FARRELL",
+    "headline": "Warehouse Worker",
+    "location": "New York, NY",
+    "email": "",
+    "phone": "(718) 505 7112",
+    "summary": "",
+    "links": [],
+    "education": [
+      "10012, United States | Octoder 2015 = September 2019 | September 2013. September | 2075",
+      "+ Monitored assembly line and"
+    ],
+    "skills": [],
+    "experience": [],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.1,
+      "phone": 0.9,
+      "headline": 0.7,
+      "summary": 0.25,
+      "links": 0.2,
+      "education": 0.75,
+      "skills": 0.15,
+      "experience": 0.15,
+      "publications": 0.15
+    }
+  }
+}

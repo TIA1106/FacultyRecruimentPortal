@@ -1,0 +1,879 @@
+[
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\0078e633_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "John Heartman",
+      "headline": "Certified Nursing Assistant with over 10 years of experience in patient Contact",
+      "location": "",
+      "email": "",
+      "phone": "(555)555-5555",
+      "summary": "",
+      "links": [],
+      "education": [
+        "2014-05 Master of Science: Healthcare",
+        "University of itinois - Champaign, tilinois",
+        "2012-05 Bachelor of Science: Nursing | iknors State University - Normal, Illinois",
+        "iknors State University - Normal, Illinois"
+      ],
+      "skills": [],
+      "experience": [
+        "Certified Nursing Assistant with over 10 years of experience in patient Contact - care. Proven track record of enhancing efficiency by 15% and",
+        "2022-02 - Certified Nursing Assistant com - 2025-07 Harmony Health Center. Seattle, WA",
+        "2017-01 - Healthcare Assistant - 2022-01 Greenfield Hospital. Redmond, WA Languages"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\01afc7b5_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "John Heartman",
+      "headline": "Certified Nursing Assistant with over 10 years of experience in patient Contact",
+      "location": "",
+      "email": "",
+      "phone": "(555)555-5555",
+      "summary": "",
+      "links": [],
+      "education": [
+        "2014-05 Master of Science: Healthcare",
+        "University of itinois - Champaign, tilinois",
+        "2012-05 Bachelor of Science: Nursing | iknors State University - Normal, Illinois",
+        "iknors State University - Normal, Illinois"
+      ],
+      "skills": [],
+      "experience": [
+        "Certified Nursing Assistant with over 10 years of experience in patient Contact - care. Proven track record of enhancing efficiency by 15% and",
+        "2022-02 - Certified Nursing Assistant com - 2025-07 Harmony Health Center. Seattle, WA",
+        "2017-01 - Healthcare Assistant - 2022-01 Greenfield Hospital. Redmond, WA Languages"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\0b76ad02_Doc1.converted.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "nendierit hbero",
+      "headline": "Lorem ipsum dolor sit amet.",
+      "location": "",
+      "email": "helio@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "summary": "",
+      "links": [],
+      "education": [
+        "(2011 -2015) | WARDIERE UNIVERSITY",
+        "WARDIERE UNIVERSITY",
+        "(2014 -2019) | WARDIERE UNIVERSITY"
+      ],
+      "skills": [],
+      "experience": [
+        "(2020 -2023) | SENIOR GRAPHIC DESIGNER",
+        "Fauget studio * create more than 100 graphic designs | tor big companies * complete a lot of complicated work",
+        "(2017 - 2019) | SENIOR GRAPHIC DESIGNER | farana, inc | e create more than 100 graphic designs | for big companies * complete a lot of complicated work"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\0b76ad02_Doc1.docx",
+    "file_type": "docx",
+    "is_scanned": false,
+    "layout_used": false,
+    "extraction_method": "digital",
+    "parsed": {
+      "name": "hendrerit libero",
+      "headline": "Lorem ipsum dolor sit_omet",
+      "location": "",
+      "email": "hello@realiygreatsite.com",
+      "phone": "+123-458-7890",
+      "summary": "",
+      "links": [],
+      "education": [
+        "WARDIERE UNIVERSITY",
+        "7 (2014-2019) | WARDIERE UNIVERSITY",
+        "¢ (2020-2023)",
+        "y (2017-2019)"
+      ],
+      "skills": [],
+      "experience": [],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.15,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\0d89c850_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "John Heartman",
+      "headline": "Certified Nursing Assistant with over 10 years of experience in patient Contact",
+      "location": "",
+      "email": "",
+      "phone": "(555)555-5555",
+      "summary": "",
+      "links": [],
+      "education": [
+        "2014-05 Master of Science: Healthcare",
+        "University of itinois - Champaign, tilinois",
+        "2012-05 Bachelor of Science: Nursing | iknors State University - Normal, Illinois",
+        "iknors State University - Normal, Illinois"
+      ],
+      "skills": [],
+      "experience": [
+        "Certified Nursing Assistant with over 10 years of experience in patient Contact - care. Proven track record of enhancing efficiency by 15% and",
+        "2022-02 - Certified Nursing Assistant com - 2025-07 Harmony Health Center. Seattle, WA",
+        "2017-01 - Healthcare Assistant - 2022-01 Greenfield Hospital. Redmond, WA Languages"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\137a5bc3_Drishti_Sukhnani_FY_2025_e_260521_220259.pdf",
+    "file_type": "pdf",
+    "is_scanned": false,
+    "layout_used": false,
+    "extraction_method": "digital",
+    "parsed": {
+      "name": "Drishti Sukhnani",
+      "headline": "Solindore@nmims.edu./LL: 0731-2581508",
+      "location": "",
+      "email": "Solindore@nmims.edu",
+      "phone": "",
+      "summary": "",
+      "links": [
+        "https://www.linkedin.com/in/drishti-sukhnani-b51016222"
+      ],
+      "education": [
+        "2021-2026 | BBA LLB | NMIMS School of Law - Indore (CGPA)",
+        "2020 | XII | St. Anne\"s Senior Secondary School, Jodhpur, Rajasthan",
+        "2018 | X | St. Anne\"s Senior Secondary School, Jodhpur, Rajasthan"
+      ],
+      "skills": [
+        "Research"
+      ],
+      "experience": [
+        "The Insurance Lawyer Group (Insurance Law) (November 2025 - January 2026) - | Analyzed complex legal issues by applying statutory interpretation and case law principles, such as evaluating | material non-disclosure under Section 45 of the Insurance Act and supporting conclusions with relevant | precedents. - | Conducted detailed research on consumer protection and medical negligence, including studying statutory",
+        "definitions (Sections 2(11) & 2(42) of CPA, 2019), evidentiary doctrines like res ipsa loquitur, and landmark | judgments to support legal reasoning. -",
+        "Examined insurer rights and policyholder obligations by assessing how non-disclosure, misrepresentation, and | fraudulent suppression of facts affect claim validity, particularly in life and health insurance disputes. - | Reviewed judicial interpretations of insurance contracts, focusing on how courts evaluate materiality, good | faith, and the burden of proof in claim repudiation cases, strengthening the ability to connect statutory | provisions with practical outcomes. -",
+        "Pitambara Law Associates (Contract Law & Corporate Law) (October 2025) - | Conducted in-depth legal research on key provisions of the Societies Registration Act, Negotiable | Instruments Act, and Limited Liability Partnership Act, synthesizing findings into structured research notes | for senior review. -",
+        "Analyzed landmark judicial precedents, including SCBA v. Registrar of Societies and SMS Pharmaceuticals | v. Neeta Bhalla, to assess their implications on statutory interpretation and liability principles. - | Prepared concise analytical briefs on Sections 138 and 141 of the Negotiable Instruments Act, focusing on | vicarious liability and corporate accountability frameworks. -"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.1,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.9,
+        "education": 0.85,
+        "skills": 0.85,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\14f7a271_Doc1.docx",
+    "file_type": "docx",
+    "is_scanned": false,
+    "layout_used": false,
+    "extraction_method": "digital",
+    "parsed": {
+      "name": "Kevin Brown",
+      "headline": "Software Engineer",
+      "location": "Notre Dame, IN",
+      "email": "kevin@hiration.com.Notre",
+      "phone": "(443) 123.4567",
+      "summary": "Tech-savy software professional possessing experience in designing & implementing software solutions by deploying various programming languages. Highly skiled in analyzing software for identifying defects and coordinating with cross-functional teams and stakeholders to resolve issues.",
+      "links": [
+        "www.linkedin.com/in/kevin"
+      ],
+      "education": [
+        "University of Notre Dame Notre Dame, IN | + Received the Goldwater Scholarship | Jun 2020, | Study Abroad Spring Program \"Aug 2019 - Feb 2020",
+        "Dublin City University Dublin, IR | + Learned to speak irish while teaching Spoken English to 10+ local university students",
+        "+ Learned to speak irish while teaching Spoken English to 10+ local university students"
+      ],
+      "skills": [
+        "Application Designing",
+        "Application Maintenance",
+        "Application Maintenance & Testing",
+        "Data Structures and Algorithms",
+        "Debugging",
+        "HTML",
+        "Java",
+        "Javascript",
+        "MongoDB",
+        "MySQL",
+        "Report Generation",
+        "Software Development Life Cycle",
+        "Software Engineering",
+        "Software Testing and Debugging",
+        "Teaching",
+        "Technical Documentation",
+        "Testing"
+      ],
+      "experience": [
+        "Software Engineering Intern \"Oct 2020 - Jan 2021 | Multi Learn Technologies Notre Dame, IN | \"Application Maintenance & Testing",
+        "+ Gained hands-on experience in developing, implementing, and maintaining internal web applications | + Assisted the technical team with the design, and maintenance of 5+ new programs on a monthiy basis",
+        "+ Performed automated and manual tests to ensure the software created by developers is up to date and working properly",
+        "+ Coordinated with the engineering team to identify software imperfections & prepared bug reports for the developers team | Key Achievement",
+        "+ Awarded as the \"Best intern ofthe Month\" for above & beyond performance | Jan 2021"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.7,
+        "links": 0.9,
+        "education": 0.75,
+        "skills": 0.85,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\173108f3_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "John Heartman",
+      "headline": "Certified Nursing Assistant with over 10 years of experience in patient Contact",
+      "location": "",
+      "email": "",
+      "phone": "(555)555-5555",
+      "summary": "",
+      "links": [],
+      "education": [
+        "2014-05 Master of Science: Healthcare",
+        "University of itinois - Champaign, tilinois",
+        "2012-05 Bachelor of Science: Nursing | iknors State University - Normal, Illinois",
+        "iknors State University - Normal, Illinois"
+      ],
+      "skills": [],
+      "experience": [
+        "Certified Nursing Assistant with over 10 years of experience in patient Contact - care. Proven track record of enhancing efficiency by 15% and",
+        "2022-02 - Certified Nursing Assistant com - 2025-07 Harmony Health Center. Seattle, WA",
+        "2017-01 - Healthcare Assistant - 2022-01 Greenfield Hospital. Redmond, WA Languages"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\276b0ebc_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "nendierit hbero",
+      "headline": "Lorem ipsum dolor sit amet.",
+      "location": "",
+      "email": "helio@reallygreatsite.com",
+      "phone": "+123-456-7890",
+      "summary": "",
+      "links": [],
+      "education": [
+        "(2011 -2015) | WARDIERE UNIVERSITY",
+        "WARDIERE UNIVERSITY",
+        "(2014 -2019) | WARDIERE UNIVERSITY"
+      ],
+      "skills": [],
+      "experience": [
+        "(2020 -2023) | SENIOR GRAPHIC DESIGNER",
+        "Fauget studio * create more than 100 graphic designs | tor big companies * complete a lot of complicated work",
+        "(2017 - 2019) | SENIOR GRAPHIC DESIGNER | farana, inc | e create more than 100 graphic designs | for big companies * complete a lot of complicated work"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\2b999725_0b76ad02_Doc1.docx",
+    "file_type": "docx",
+    "is_scanned": false,
+    "layout_used": false,
+    "extraction_method": "digital",
+    "parsed": {
+      "name": "hendrerit libero",
+      "headline": "Lorem ipsum dolor sit_omet",
+      "location": "",
+      "email": "hello@realiygreatsite.com",
+      "phone": "+123-458-7890",
+      "summary": "",
+      "links": [],
+      "education": [
+        "WARDIERE UNIVERSITY",
+        "7 (2014-2019) | WARDIERE UNIVERSITY",
+        "¢ (2020-2023)",
+        "y (2017-2019)"
+      ],
+      "skills": [],
+      "experience": [],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.15,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\2c6b8fca_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "John Heartman",
+      "headline": "Certified Nursing Assistant with over 10 years of experience in patient Contact",
+      "location": "",
+      "email": "",
+      "phone": "(555)555-5555",
+      "summary": "",
+      "links": [],
+      "education": [
+        "2014-05 Master of Science: Healthcare",
+        "University of itinois - Champaign, tilinois",
+        "2012-05 Bachelor of Science: Nursing | iknors State University - Normal, Illinois",
+        "iknors State University - Normal, Illinois"
+      ],
+      "skills": [],
+      "experience": [
+        "Certified Nursing Assistant with over 10 years of experience in patient Contact - care. Proven track record of enhancing efficiency by 15% and",
+        "2022-02 - Certified Nursing Assistant com - 2025-07 Harmony Health Center. Seattle, WA",
+        "2017-01 - Healthcare Assistant - 2022-01 Greenfield Hospital. Redmond, WA Languages"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\39bb395b_Naman_Reume.pdf",
+    "file_type": "pdf",
+    "is_scanned": false,
+    "layout_used": false,
+    "extraction_method": "digital",
+    "parsed": {
+      "name": "Naman Goyal",
+      "headline": "Jaipur, Rajasthan, India",
+      "location": "",
+      "email": "gnaman180@gmail.com",
+      "phone": "+916377992203",
+      "summary": "Full Stack Developer with practical experience across the entire development lifecycle - from designing REST APIs and optimizing backend performance to building intuitive, responsive frontends. Proven ability to ship impactful projects including an AI-driven language learning platform, a healthcare management system, and a real-time inventory dashboard. Eager to bring strong problem-solving skills and a collaborative mindset to a fast-paced engineering team.",
+      "links": [
+        "www.namannn.online",
+        "https://drive.google.com/file/d/1guI4wMDbBJwP7p_i5NZKEtDEv8K8E53y/view?usp=sharing"
+      ],
+      "education": [
+        "B.Tech CSE(AI) | JK Lakshmipat University, Jaipur [Sem 4th] CGPA (latest):8.82. - Jaipur,Rajasthan - 2026",
+        "JK Lakshmipat University, Jaipur [Sem 4th] CGPA (latest):8.82. - Jaipur,Rajasthan - 2026",
+        "JK Lakshmipat University - September 2025"
+      ],
+      "skills": [
+        "Debugging",
+        "Javascript",
+        "MongoDB",
+        "Node.js",
+        "Python",
+        "React",
+        "SQL",
+        "Teaching"
+      ],
+      "experience": [
+        "Teaching Assistant | JK Lakshmipat University",
+        "January 2026 - Present | Jaipur Rajasthan | , - Assisted 30+ students per lab session in C programming with coding concepts, debugging, and problem-solving, reducing common error rates by ~40%. - Guided and evaluated 50+ students across lab sessions, providing structured feedback that improved average lab performance scores by 15-20%. - Supported faculty across 10+ weekly lab sessions, ensuring smooth operations and maintaining progress tracking for a batch of 60+ students.",
+        "Full Stack Intern | Xorblin",
+        "January 2026 - March 2026 | Jaipur, Rajasthan | , - Built 10+ full-stack features for a SaaS web app using React and Express, shipping end-to-end functionality across frontend and backend. - Developed and maintained 15+ REST APIs in Express, optimizing backend response times by ~30% through query optimization. - Designed responsive UI components in React improving user experience across mobile and desktop, reducing layout-related bug reports by ~25%."
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.7,
+        "links": 0.9,
+        "education": 0.85,
+        "skills": 0.85,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\3c0ed951_resume_1.pdf",
+    "file_type": "pdf",
+    "is_scanned": false,
+    "layout_used": false,
+    "extraction_method": "digital",
+    "parsed": {
+      "name": "Tia Sukhnanni",
+      "headline": "7240017609 | tiasukhnannis@gmail.com | https://github.com/TIA1106",
+      "location": "",
+      "email": "tiasukhnannis@gmail.com",
+      "phone": "1\n7240017609",
+      "summary": "",
+      "links": [
+        "https://github.com/TIA1106"
+      ],
+      "education": [
+        "B.Tech in Computer Science and Engineering-AI",
+        "1st Year CGPA: 8.625 / 10",
+        "Delhi Public School, Jodhpur - CBSE | Year of Passing: 2024"
+      ],
+      "skills": [
+        "Css",
+        "Data Science",
+        "Data Visualization",
+        "Git",
+        "HTML",
+        "Javascript",
+        "Machine Learning",
+        "MongoDB",
+        "MySQL",
+        "Node.js",
+        "Python",
+        "React",
+        "SQL"
+      ],
+      "experience": [],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.9,
+        "education": 0.85,
+        "skills": 0.85,
+        "experience": 0.15,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\42a20404_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "John Heartman",
+      "headline": "Certified Nursing Assistant with over 10 years of experience in patient Contact",
+      "location": "",
+      "email": "",
+      "phone": "(555)555-5555",
+      "summary": "",
+      "links": [],
+      "education": [
+        "2014-05 Master of Science: Healthcare",
+        "University of itinois - Champaign, tilinois",
+        "2012-05 Bachelor of Science: Nursing | iknors State University - Normal, Illinois",
+        "iknors State University - Normal, Illinois"
+      ],
+      "skills": [],
+      "experience": [
+        "Certified Nursing Assistant with over 10 years of experience in patient Contact - care. Proven track record of enhancing efficiency by 15% and",
+        "2022-02 - Certified Nursing Assistant com - 2025-07 Harmony Health Center. Seattle, WA",
+        "2017-01 - Healthcare Assistant - 2022-01 Greenfield Hospital. Redmond, WA Languages"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\46de6922_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "JACK FARRELL",
+      "headline": "Warehouse Worker",
+      "location": "New York, NY",
+      "email": "",
+      "phone": "(718) 505 7112",
+      "summary": "",
+      "links": [],
+      "education": [
+        "10012, United States | Octoder 2015 = September 2019 | September 2013. September | 2075",
+        "+ Monitored assembly line and"
+      ],
+      "skills": [],
+      "experience": [],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.15,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\4a3c55c7_Doc1.docx",
+    "file_type": "docx",
+    "is_scanned": false,
+    "layout_used": false,
+    "extraction_method": "digital",
+    "parsed": {
+      "name": "Galena Micheal",
+      "headline": "BACHELOR OF ARTS IN EDUCATION",
+      "location": "",
+      "email": "",
+      "phone": "",
+      "summary": "Motivated entry-level high school English Teacher with",
+      "links": [],
+      "education": [
+        "Motivated entry-level high school English Teacher with",
+        "\"gmicheal email com Johnson University, West Charlotte. NC | \"National Board Certified Teacher (NBCT), 2025"
+      ],
+      "skills": [
+        "Teaching"
+      ],
+      "experience": [
+        "\"National Board Certified Teacher (NBCT), 2025 - Search"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.1,
+        "headline": 0.7,
+        "summary": 0.7,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.85,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\4d3a8c62_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "John Heartman",
+      "headline": "Certified Nursing Assistant with over 10 years of experience in patient Contact",
+      "location": "",
+      "email": "",
+      "phone": "(555)555-5555",
+      "summary": "",
+      "links": [],
+      "education": [
+        "2014-05 Master of Science: Healthcare",
+        "University of itinois - Champaign, tilinois",
+        "2012-05 Bachelor of Science: Nursing | iknors State University - Normal, Illinois",
+        "iknors State University - Normal, Illinois"
+      ],
+      "skills": [],
+      "experience": [
+        "Certified Nursing Assistant with over 10 years of experience in patient Contact - care. Proven track record of enhancing efficiency by 15% and",
+        "2022-02 - Certified Nursing Assistant com - 2025-07 Harmony Health Center. Seattle, WA",
+        "2017-01 - Healthcare Assistant - 2022-01 Greenfield Hospital. Redmond, WA Languages"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\4e03a5b9_Drishti_Sukhnani_FY_2025_e_260521_220259.docx",
+    "file_type": "docx",
+    "is_scanned": false,
+    "layout_used": false,
+    "extraction_method": "digital",
+    "parsed": {
+      "name": "Drishti Sukhnani",
+      "headline": "2021-2026 | BBA LLB | NMIMS School of Law - Indore (CGPA) : 3.16 out of 4",
+      "location": "",
+      "email": "Solindore@nmims.edu",
+      "phone": "",
+      "summary": "",
+      "links": [
+        "https://www.linkedin.com/in/drishti-sukhnani-b51016222"
+      ],
+      "education": [
+        "2021-2026 | BBA LLB | NMIMS School of Law - Indore (CGPA) : 3.16 out of 4 | 2020 | XII | St. Anne\"s Senior Secondary School, Jodhpur, Rajasthan : 90% 2018 | X | St. Anne\"s Senior Secondary School, Jodhpur, Rajasthan : 89.6%",
+        "2020 | XII | St. Anne\"s Senior Secondary School, Jodhpur, Rajasthan : 90% 2018 | X | St. Anne\"s Senior Secondary School, Jodhpur, Rajasthan : 89.6%"
+      ],
+      "skills": [
+        "Research"
+      ],
+      "experience": [
+        "The Insurance Lawyer Group (Insurance Law) (November 2025 - January 2026) | Analyzed complex legal issues by applying statutory interpretation and case law principles, such as evaluating material non-disclosure under Section 45 of the Insurance Act and supporting conclusions with relevant precedents.",
+        "Conducted detailed research on consumer protection and medical negligence, including studying statutory definitions (Sections 2(11) & 2(42) of CPA, 2019), evidentiary doctrines like res ipsa loquitur, and landmark judgments to support legal reasoning.",
+        "Examined insurer rights and policyholder obligations by assessing how non-disclosure, misrepresentation, and fraudulent suppression of facts affect claim validity, particularly in life and health insurance disputes. | Reviewed judicial interpretations of insurance contracts, focusing on how courts evaluate materiality, good faith, and the burden of proof in claim repudiation cases, strengthening the ability to connect statutory provisions with practical outcomes.",
+        "Pitambara Law Associates (Contract Law & Corporate Law) (October 2025) | Conducted in-depth legal research on key provisions of the Societies Registration Act, Negotiable Instruments Act, and Limited Liability Partnership Act, synthesizing findings into structured research notes for senior review.",
+        "Analyzed landmark judicial precedents, including SCBA v. Registrar of Societies and SMS Pharmaceuticals | v. Neeta Bhalla, to assess their implications on statutory interpretation and liability principles. | Prepared concise analytical briefs on Sections 138 and 141 of the Negotiable Instruments Act, focusing on vicarious liability and corporate accountability frameworks."
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.1,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.9,
+        "education": 0.85,
+        "skills": 0.85,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\4e515bef_Doc1.docx",
+    "file_type": "docx",
+    "is_scanned": false,
+    "layout_used": false,
+    "extraction_method": "digital",
+    "parsed": {
+      "name": "John Heartman",
+      "headline": "Certified Nursing Assistant with over 10 years of experience in patient",
+      "location": "",
+      "email": "John.Heartman@example.com",
+      "phone": "(555)555-5555",
+      "summary": "",
+      "links": [],
+      "education": [
+        "2014-05 Master of Science: Healthcare",
+        "University of ilinois - Champaign, ilinois",
+        "2012-05 Bachelor of Science: Nursing | llinois State University - Normal, ilinois",
+        "llinois State University - Normal, ilinois"
+      ],
+      "skills": [],
+      "experience": [
+        "2022-02 - Certified Nursing Assistant | eal Harmony Health Center, Seattle, WA * Elevated patient care through 15% efficiency | boost | \"+ Managed 20 patient charts daily using EMR | systems | + Reduced patient wait times by 30 minutes on | average",
+        "2017-01 - Healthcare Assistant",
+        "2022-01 Greenfield Hospital. Redmond, WA | + Implemented care plans for 50+ patients weekly | + Assisted in reducing hospital readmission by 10% | + Led patient feedback sessions, enhancing care | by 20%",
+        "2015-01 - Patient Care Technician",
+        "2016-12 \"Meadowbrook Clinic. Bellevue, WA | + Facilitated 100+ patient appointments monthly | + Trained 5 new caregivers, improving team skils | + Collaborated on a project. saving $10k annually"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.95,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  },
+  {
+    "path": "D:\\Faculty Recruitment Portal\\uploads\\55cf6dae_Doc1.pdf",
+    "file_type": "pdf",
+    "is_scanned": true,
+    "layout_used": false,
+    "extraction_method": "ocr",
+    "parsed": {
+      "name": "John Heartman",
+      "headline": "Certified Nursing Assistant with over 10 years of experience in patient Contact",
+      "location": "",
+      "email": "",
+      "phone": "(555)555-5555",
+      "summary": "",
+      "links": [],
+      "education": [
+        "2014-05 Master of Science: Healthcare",
+        "University of itinois - Champaign, tilinois",
+        "2012-05 Bachelor of Science: Nursing | iknors State University - Normal, Illinois",
+        "iknors State University - Normal, Illinois"
+      ],
+      "skills": [],
+      "experience": [
+        "Certified Nursing Assistant with over 10 years of experience in patient Contact - care. Proven track record of enhancing efficiency by 15% and",
+        "2022-02 - Certified Nursing Assistant com - 2025-07 Harmony Health Center. Seattle, WA",
+        "2017-01 - Healthcare Assistant - 2022-01 Greenfield Hospital. Redmond, WA Languages"
+      ],
+      "publications": [],
+      "confidence": {
+        "name": 0.85,
+        "email": 0.1,
+        "phone": 0.9,
+        "headline": 0.7,
+        "summary": 0.25,
+        "links": 0.2,
+        "education": 0.75,
+        "skills": 0.15,
+        "experience": 0.8,
+        "publications": 0.15
+      }
+    },
+    "error": null
+  }
+]

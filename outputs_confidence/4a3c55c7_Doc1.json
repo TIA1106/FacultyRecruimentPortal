@@ -1,0 +1,37 @@
+{
+  "file_name": "4a3c55c7_Doc1.docx",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\4a3c55c7_Doc1.docx",
+  "extraction_method": "docx",
+  "parsed": {
+    "name": "Galena Micheal",
+    "headline": "BACHELOR OF ARTS IN EDUCATION",
+    "location": "",
+    "email": "",
+    "phone": "",
+    "summary": "Motivated entry-level high school English Teacher with",
+    "links": [],
+    "education": [
+      "Motivated entry-level high school English Teacher with",
+      "\"gmicheal email com Johnson University, West Charlotte. NC | \"National Board Certified Teacher (NBCT), 2025"
+    ],
+    "skills": [
+      "Teaching"
+    ],
+    "experience": [
+      "\"National Board Certified Teacher (NBCT), 2025 - Search"
+    ],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.1,
+      "phone": 0.1,
+      "headline": 0.7,
+      "summary": 0.7,
+      "links": 0.2,
+      "education": 0.75,
+      "skills": 0.85,
+      "experience": 0.8,
+      "publications": 0.15
+    }
+  }
+}

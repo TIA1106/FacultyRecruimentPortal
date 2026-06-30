@@ -1,0 +1,39 @@
+{
+  "file_name": "7b64aa7b_103.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\7b64aa7b_103.pdf",
+  "extraction_method": "ocr_preprocessed",
+  "parsed": {
+    "name": "SUMMARY SKILLS",
+    "headline": "",
+    "location": "",
+    "email": "resumesample@example.com",
+    "phone": "2 (555) 432-1000",
+    "summary": "",
+    "links": [],
+    "education": [
+      "« Managed school picture program | « Managed parking tag program | ¢ Implemented the staff and student ID program",
+      "St. Louis Community College, St. Louis, MO"
+    ],
+    "skills": [],
+    "experience": [
+      "EDUCATION AND | TRAINING | Jessica Claire | @ Montgomery Street. San Francisco. CA 94105 2 (555) 432-1000 4 resumesample@example.com | Motivated. experienced Accountant who effectively manages multiple projects. and possesses superior | organizational and problem solving skills. A self-starter with a positive attitude and willingness to support | company goals is seeking a challenging position | « Billing and Collections e Assists with Month End Close | « Accounts Payable/ Receivable e Accounting Software/ Microsoft Office | e Human Resources/ Payroll « Notary Commissioned | « Generali Ledger Maintenance « Participates in yearly audits",
+      "GRANT ACCOUNTANT 06/2013 to CURRENT | Catholic Community Services Of | Bellingham, WA | e Maintains General Ledger | « ~=Assists with Month End Close | ¢ Month End Reporting/ invoicing of assigned grants | ¢ Trains new employees on accounting principles and company procedures | « Creates periodic reports comparing budgeted costs to actual costs | « Weekly draw down casn from the State of Missouri utilizing tne Financial Reporting System | « Facilitates Accounts Receivable. including billing and collections | « Processes Accounts Payable using Sage software | « Manages many budgets for several grants. awards and contracts | « Oocuments fiscal procedures and revises fiscal procedures as needed | e Forecasting for several programs and departments as requested",
+      "AC IOUNT CLERK 09/2012 to 06/2013 | Geodis | Riverside, CA | « Accounts Payable | ¢ Payroil | « Generai Ledger Reconciliation * Accounts Receivable",
+      "AC AINISTRATIVE ASSISTANT 06/2006 to 06/2011 | Columbus Mckinnon Corporation | Damascus, VA | « Managed office supplies. vendors. organization and upkeep | « Cash management for various projects | « Managed school picture program | « Managed parking tag program | « Directed guests and routed delivenes and couner services | « Answered and managed incoming and outgoing calls while recording accurate messages | « Greeted numerous visitors. including VIPs. vendors and interview candidates",
+      "e Facilitated the changes to the student handbook each year"
+    ],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.95,
+      "phone": 0.9,
+      "headline": 0.25,
+      "summary": 0.25,
+      "links": 0.2,
+      "education": 0.5,
+      "skills": 0.15,
+      "experience": 0.8,
+      "publications": 0.15
+    }
+  }
+}

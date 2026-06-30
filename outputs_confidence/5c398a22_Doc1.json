@@ -1,0 +1,33 @@
+{
+  "file_name": "5c398a22_Doc1.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\5c398a22_Doc1.pdf",
+  "extraction_method": "ocr_preprocessed",
+  "parsed": {
+    "name": "CALEB BURTON",
+    "headline": "wl Heavy Truck Driver",
+    "location": "Salem, OR",
+    "email": "",
+    "phone": "",
+    "summary": "",
+    "links": [],
+    "education": [
+      "Hudson's Bay High School, Vancouver, RiverBend Materiats, Salem, OR | April 2019 - Present | war not 2015 = Operate dump trucks and semi-tractor trucks with attached tratters throughout | Western Express, Sherwood, OR | lanuary 2015 - March 2019",
+      "Western Pacific Truck School of © Promptly loaded and unicaded cargo in compliance with all safety guidelines"
+    ],
+    "skills": [],
+    "experience": [],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.1,
+      "phone": 0.1,
+      "headline": 0.7,
+      "summary": 0.25,
+      "links": 0.2,
+      "education": 0.75,
+      "skills": 0.15,
+      "experience": 0.15,
+      "publications": 0.15
+    }
+  }
+}

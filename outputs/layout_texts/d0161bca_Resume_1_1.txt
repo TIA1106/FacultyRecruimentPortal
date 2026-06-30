@@ -1,0 +1,48 @@
+T I A S U K H N A N N I
+J a i p u r , R a j a s t h a n , I n d i a t i a s u k h n a n n i s @ g m a i l . c o m 7 2 4 0 0 1 7 6 0 9 i n / t i a - s u k h n a n n i - a 4 b b 2 8 3 0 8 t i a s u k h n a n n i . o n l i n e
+S U M M A R Y
+F u l l - s t a c k d e v e l o p e r w i t h h a n d s - o n e x p e r i e n c e b u i l d i n g a n d s h i p p i n g r e a l - w o r l d w e b a n d m o b i l e a p p l i c a t i o n s u s i n g M E R N s t a c k . D e l i v e r e d p r o d u c t i o n - l e v e l b a c k e n d
+f e a t u r e s a n d f r o n t e n d r e v i s i o n s a c r o s s a g r i - t e c h , h e a l t h c a r e , a n d c o n t e n t p l a t f o r m s , w i t h a f o c u s o n R E S T f u l A P I d e s i g n , d a t a b a s e a r c h i t e c t u r e , a n d e n d - t o - e n d f e a t u r e
+d e l i v e r y .
+P R O J E C T
+K i s a n S a a t h i - A I - P o w e r e d F a r m e r C o m p a n i o n A p p
+E x p r e s s . j s | T F L i t e | G e n A I ( G r o q A P I ) • g i t h u b . c o m / N a m N a m 9 2 5 2 / F a r m e r • M a r c h 2 0 2 6 - M a r c h 2 0 2 6
+• D e s i g n e d t h e b a c k e n d a r c h i t e c t u r e f o r a f u l l - s t a c k a g r i c u l t u r a l p l a t f o r m , b u i l d i n g s e c u r e E x p r e s s . j s R E S T A P I s t o m a n a g e m a r k e t d a t a , s c h e m e d i r e c t o r i e s , a n d u s e r
+p r o f i l e s .
+• B u i l t a n d d e p l o y e d a n a u t o m a t e d c r o p d i a g n o s t i c t o o l b y b r i d g i n g o n - d e v i c e T F L i t e m o d e l s w i t h c l o u d - b a s e d A I ( G r o q ) f o r i n s t a n t , p h o t o - b a s e d d i s e a s e a n a l y s i s .
+C a r e P l u s - F u l l - S t a c k H e a l t h c a r e P l a t f o r m
+N o d e . j s | E x p r e s s . j s | M o n g o D B | S o c k e t . I O • c a r e p l u s - t a u . v e r c e l . a p p • J a n u a r y 2 0 2 6 - F e b r u a r y 2 0 2 6
+• E n g i n e e r e d t h e b a c k e n d a r c h i t e c t u r e f r o m t h e g r o u n d u p , b u i l d i n g s e c u r e R E S T f u l A P I s , o p t i m i z i n g d a t a b a s e s c h e m a s , a n d w r i t i n g s e r v e r l o g i c f o r a f u l l - s c a l e
+h e a l t h c a r e p l a t f o r m .
+• D e v e l o p e d c o r e p a t i e n t - d o c t o r w o r k f l o w s , i n c l u d i n g r o b u s t r o u t i n g f o r v i r t u a l c o n s u l t a t i o n s c h e d u l i n g , p e r s i s t e n t u s e r s e s s i o n s , a n d a u t o m a t e d a p p o i n t m e n t
+b o o k i n g .
+• I n t e g r a t e d r e a l - t i m e d a t a s y n c h r o n i z a t i o n t o p o w e r l i v e c l i n i c q u e u e m a n a g e m e n t , d r a m a t i c a l l y i m p r o v i n g t h e e f f i c i e n c y o f d i g i t a l p a t i e n t h a n d l i n g .
+T i a S u m é - A I - P o w e r e d R e s u m e B u i l d e r
+R e a c t | N o d e . j s | M i s t r a l A I • t i a s u m e . v e r c e l . a p p / • N o v e m b e r 2 0 2 5 - J a n u a r y 2 0 2 6
+• E n g i n e e r e d a f a s t , w e b - b a s e d r e s u m e g e n e r a t i o n t o o l , o p t i m i z i n g t h e u s e r f l o w b y u t i l i z i n g l o c a l s e s s i o n m a n a g e m e n t t o b y p a s s t r a d i t i o n a l a u t h e n t i c a t i o n f o r
+i n s t a n t a c c e s s .
+• A r c h i t e c t e d a n A I i n t e g r a t i o n p i p e l i n e u t i l i z i n g t h e M i s t r a l A I A P I t o d e l i v e r d y n a m i c , o n - t h e - f l y t e x t g e n e r a t i o n , h e l p i n g u s e r s o p t i m i z e t h e i r p r o f e s s i o n a l
+s u m m a r i e s .
+• I m p l e m e n t e d r o b u s t c l i e n t - s i d e P D F r e n d e r i n g , e n s u r i n g h i g h - f i d e l i t y d o c u m e n t e x p o r t s d i r e c t l y f r o m t h e u s e r ' s b r o w s e r .
+S K I L L S
+F r a m e w o r k s & L i b r a r i e s : R e a c t , N e x t . j s , E x p r e s s . j s , T a i l w i n d C S S , S o c k e t . I O
+D a t a b a s e : M o n g o D B , P o s t g r e S Q L , M y S Q L
+L a n g u a g e s : C , P y t h o n , J a v a s c r i p t , T y p e s c r i p t ( b a s i c s )
+A W A R D S & H O N O R S
+1 s t R u n n e r U p – H a c k J K L U P r e - H a c k a t h o n 2 0 2 6 ( 2 4 - H o u r H a c k a t h o n )
+J K L a k s h m i p a t U n i v e r s i t y , J a i p u r • 2 0 2 6
+• S e c u r e d r u n n e r - u p p o s i t i o n a m o n g 6 0 + m u l t i p l e t e a m s b y b u i l d i n g a w o r k i n g p r o t o t y p e .
+• W o r k e d a s a b a c k e n d d e v e l o p e r i n t h i s p a r t i c u l a r p r o j e c t .
+C E R T I F I C A T I O N S
+I B M D a t a S c i e n c e P r o f e s s i o n a l C e r t i f i c a t e
+C o u r s e r a • 2 0 2 5
+• B u i l t a n d e v a l u a t e d p r e d i c t i v e m o d e l s u s i n g r e a l - w o r l d d a t a s e t s , a p p l i e d s t a t i s t i c a l c o n c e p t s .
+• h t t p s : / / c o u r s e r a . o r g / s h a r e / 9 1 7 8 3 b 3 3 e f 6 f 9 e 6 b c 5 2 6 f e 0 9 9 3 3 2 0 7 c 2
+E X P E R I E N C E
+H a c k a t h o n P a r t i c i p a n t
+, J a n u a r y 2 0 2 6 - J a n u a r y 2 0 2 6 J a i p u r L N M I I T
+• D e v e l o p e d a d e c e n t r a l i z e d W e b 3 w e b a p p l i c a t i o n u n d e r r i g o r o u s t i m e c o n s t r a i n t s d u r i n g a f a s t - p a c e d h a c k a t h o n e n v i r o n m e n t .
+• A c q u i r e d p r a c t i c a l e x p e r t i s e i n W e b 3 a r c h i t e c t u r e , i n c l u d i n g t h e i n t e g r a t i o n a n d d e p l o y m e n t o f b l o c k c h a i n s m a r t c o n t r a c t s .
+E D U C A T I O N
+B . T e c h i n C o m p u t e r S c i e n c e a n d A r t i f i c i a l I n t e l l i g e n c e
+J K L a k s h m i p a t U n i v e r s i t y ( J K L U ) • J a i p u r • 8 . 8 2 6 / 1 0

@@ -1,0 +1,31 @@
+{
+  "name": "Ananya Sen",
+  "email": "aarav.sharma@example.com",
+  "phone": "+91 98765 43210",
+  "education": [
+    "- Ph.D. in Computer Science and Engineering, IIT Bombay, 2018, - M.Tech in Computer Science, BITS Pilani, 2013",
+    "- M.Tech in Computer Science, BITS Pilani, 2013, - B.Tech in Information Technology, NIT Jaipur, 2010",
+    "- B.Tech in Information Technology, NIT Jaipur, 2010",
+    "Professor of Computer Science & Engineering, JK Lakshmipat University (2015 - Present)",
+    "- Led curriculum design for B.Tech CS programs."
+  ],
+  "skills": [
+    "Curriculum Design",
+    "Grant Writing",
+    "Higher Education",
+    "LaTeX",
+    "Lecturing",
+    "OCR",
+    "Pedagogy",
+    "Research",
+    "Teaching",
+    "Technical Writing"
+  ],
+  "experience": [
+    "Professor of Computer Science & Engineering, JK Lakshmipat University (2015 - Present) - Led curriculum design for B.Tech CS programs. - Secured funding of 15 Lakhs for AI Research lab."
+  ],
+  "publications": [
+    "Sen, A., 'Innovative Pedagogical Techniques in Engineering Education', Journal of Higher Education, 2025.",
+    "Sen, A. et al., 'A Survey of AI-driven Recruitment Systems', ACM Computing Surveys, 2023."
+  ]
+}

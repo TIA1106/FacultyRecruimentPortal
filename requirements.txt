@@ -1,0 +1,12 @@
+flask
+spacy
+pymupdf
+pytesseract
+pdfplumber
+reportlab
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+joblib

@@ -1,0 +1,78 @@
+{
+  "name": "TIA SUKHNANNI",
+  "headline": "Jaipur, Rajasthan, India",
+  "location": "",
+  "email": "tiasukhnannis@gmail.com",
+  "phone": "7240017609",
+  "summary": "Full-stack developer with hands-on experience building and shipping real-world web and mobile applications using MERN stack.Delivered production- level backend features and frontend revisions across agri-tech, healthcare, and content platforms, with a focus on RESTful API design, database architecture, and end-to-end feature delivery.",
+  "links": [
+    "https://coursera.org/share/91783b33ef6f9e6bc526fe09933207c2"
+  ],
+  "education": [
+    "B.Tech in Computer Science and Artificial Intelligence | JK Lakshmipat University (JKLU) - Jaipur - 8.826/10"
+  ],
+  "skills": [
+    "Css",
+    "Data Science",
+    "Go",
+    "Java",
+    "Javascript",
+    "MongoDB",
+    "MySQL",
+    "Next.Js",
+    "Node.js",
+    "Postgresql",
+    "Python",
+    "R",
+    "React",
+    "SQL"
+  ],
+  "experience": [
+    "Hackathon Participant | LNMIIT | January 2026 - January 2026 | Jaipur | , | - Developed a decentralized Web3 web application under rigorous time constraints during a fast-paced hackathon environment. | - Acquired practical expertise in Web3 architecture, including the integration and deployment of blockchain smart contracts."
+  ],
+  "publications": [],
+  "projects": [
+    "Kisan Saathi - AI-Powered Farmer Companion App",
+    "Express.js | TFLite | GenAI (Groq API) - github.com/NamNam9252/Farmer - March 2026 - March 2026",
+    "Designed the backend architecture for a full-stack agricultural platform, building secure Express.js REST APIs to manage market data, scheme directories, and user profiles.",
+    "Built and deployed an automated crop diagnostic tool by bridging on-device TFLite models with cloud-based AI (Groq) for instant, photo-based disease analysis.",
+    "CarePlus - Full-Stack Healthcare Platform",
+    "Node.js | Express.js | MongoDB | Socket.IO - careplus-tau.vercel.app - January 2026 - February 2026",
+    "Engineered the backend architecture from the ground up, building secure RESTful APIs, optimizing database schemas, and writing server logic for a full-scale healthcare platform.",
+    "Developed core patient-doctor workflows, including robust routing for virtual consultation scheduling, persistent user sessions, and automated appointment booking."
+  ],
+  "achievements": [],
+  "certificates": [
+    "IBM Data Science Professional Certificate",
+    "Coursera - 2025",
+    "Built and evaluated predictive models using real-world datasets, applied statistical concepts.",
+    "https://coursera.org/share/91783b33ef6f9e6bc526fe09933207c2"
+  ],
+  "awards": [
+    "st Runner Up - HackJKLU Pre-Hackathon 2026 (24-Hour Hackathon)",
+    "JK Lakshmipat University,Jaipur - 2026",
+    "Secured runner-up position among 60+ multiple teams by building a working prototype.",
+    "Worked as a backend developer in this particular project."
+  ],
+  "involvement": [],
+  "memberships": [],
+  "administrative_works": [],
+  "workshops": [],
+  "advt_no": "",
+  "registration_no": "REG-2026-5008",
+  "post_applied_for": "Jaipur, Rajasthan, India",
+  "specialisation": "Computer Science & Engineering",
+  "dob": "",
+  "age": "",
+  "father_name": "",
+  "mother_name": "",
+  "nationality": "",
+  "place_of_birth": "",
+  "gender_marital_status": "",
+  "category": "",
+  "religion": "",
+  "husband_name": "",
+  "other_category": "",
+  "thesis_info": [],
+  "referees": []
+}

@@ -1,0 +1,36 @@
+{
+  "file_name": "d0161bca_Resume_1_1.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\d0161bca_Resume_1_1.pdf",
+  "extraction_method": "digital",
+  "parsed": {
+    "name": "TIA SUKHNANNI",
+    "headline": "Jaipur, Rajasthan, India",
+    "location": "",
+    "email": "tiasukhnannis@gmail.com",
+    "phone": "7240017609",
+    "summary": "Full-stack developer with hands-on experience building and shipping real-world web and mobile applications using MERN stack. Delivered production- level backend features and frontend revisions across agri-tech, healthcare, and content platforms, with a focus on RESTful API design, database architecture, and end-to-end feature delivery.",
+    "links": [
+      "https://coursera.org/share/91783b33ef6f9e6bc526fe09933207c2"
+    ],
+    "education": [
+      "B.Tech in Computer Science and Artificial Intelligence | JK Lakshmipat University (JKLU) - Jaipur - 8.826/10",
+      "JK Lakshmipat University (JKLU) - Jaipur - 8.826/10"
+    ],
+    "skills": [
+      "Css",
+      "Data Science",
+      "Javascript",
+      "MongoDB",
+      "MySQL",
+      "Node.js",
+      "Postgresql",
+      "Python",
+      "React"
+    ],
+    "experience": [
+      "Hackathon Participant | LNMIIT",
+      "January 2026 - January 2026 | Jaipur | , - Developed a decentralized Web3 web application under rigorous time constraints during a fast-paced hackathon environment. - Acquired practical expertise in Web3 architecture, including the integration and deployment of blockchain smart contracts."
+    ],
+    "publications": []
+  }
+}

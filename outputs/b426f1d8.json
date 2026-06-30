@@ -1,0 +1,59 @@
+{
+  "name": "Naman Goyal",
+  "headline": "Jaipur, Rajasthan, India",
+  "location": "",
+  "email": "gnaman180@gmail.com",
+  "phone": "+916377992203",
+  "summary": "Full Stack Developer with practical experience across the entire development lifecycle - from designing REST APIs and optimizing backend performance to building intuitive, responsive frontends.Proven ability to ship impactful projects including an AI-driven language learning platform, a healthcare management system, and a real-time inventory dashboard.Eager to bring strong problem-solving skills and a collaborative mindset to a fast-paced engineering team.",
+  "links": [
+    "www.namannn.online",
+    "https://drive.google.com/file/d/1guI4wMDbBJwP7p_i5NZKEtDEv8K8E53y/view?usp=sharing"
+  ],
+  "education": [
+    "B.Tech CSE(AI) | JK Lakshmipat University, Jaipur [Sem 4th] CGPA (latest):8.82. - Jaipur,Rajasthan - 2026",
+    "JK Lakshmipat University, Jaipur [Sem 4th] CGPA (latest):8.82. - Jaipur,Rajasthan - 2026",
+    "JK Lakshmipat University - September 2025"
+  ],
+  "skills": [
+    "Debugging",
+    "Javascript",
+    "MongoDB",
+    "Node.js",
+    "Python",
+    "React",
+    "SQL",
+    "Teaching"
+  ],
+  "experience": [
+    "Teaching Assistant | JK Lakshmipat University",
+    "January 2026 - Present | Jaipur Rajasthan | , - Assisted 30+ students per lab session in C programming with coding concepts, debugging, and problem-solving, reducing common error rates by ~40%. - Guided and evaluated 50+ students across lab sessions, providing structured feedback that improved average lab performance scores by 15-20%. - Supported faculty across 10+ weekly lab sessions, ensuring smooth operations and maintaining progress tracking for a batch of 60+ students.",
+    "Full Stack Intern | Xorblin",
+    "January 2026 - March 2026 | Jaipur, Rajasthan | , - Built 10+ full-stack features for a SaaS web app using React and Express, shipping end-to-end functionality across frontend and backend. - Developed and maintained 15+ REST APIs in Express, optimizing backend response times by ~30% through query optimization. - Designed responsive UI components in React improving user experience across mobile and desktop, reducing layout-related bug reports by ~25%."
+  ],
+  "publications": [],
+  "projects": [
+    "an AI-driven language learning platform",
+    "a healthcare management system",
+    "a real-time inventory dashboard"
+  ],
+  "achievements": [],
+  "certificates": [],
+  "awards": [],
+  "advt_no": "JKLU/HR/2026/02",
+  "registration_no": "REG-2026-1899",
+  "post_applied_for": "ASSISTANT PROFESSOR IN JAIPUR, RAJASTHAN, INDIA",
+  "specialisation": "Debugging, Javascript, MongoDB",
+  "dob": "",
+  "age": "",
+  "father_name": "",
+  "mother_name": "",
+  "nationality": "Indian",
+  "place_of_birth": "",
+  "gender_marital_status": "",
+  "category": "General",
+  "religion": "",
+  "husband_name": "",
+  "other_category": "",
+  "thesis_info": [],
+  "referees": []
+}

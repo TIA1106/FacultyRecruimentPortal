@@ -1,0 +1,39 @@
+{
+  "file_name": "0078e633_Doc1.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\0078e633_Doc1.pdf",
+  "extraction_method": "ocr_preprocessed",
+  "parsed": {
+    "name": "John Heartman",
+    "headline": "Certified Nursing Assistant with over 10 years of experience in patient Contact",
+    "location": "",
+    "email": "",
+    "phone": "(555)555-5555",
+    "summary": "",
+    "links": [],
+    "education": [
+      "2014-05 Master of Science: Healthcare",
+      "University of itinois - Champaign, tilinois",
+      "2012-05 Bachelor of Science: Nursing | iknors State University - Normal, Illinois",
+      "iknors State University - Normal, Illinois"
+    ],
+    "skills": [],
+    "experience": [
+      "Certified Nursing Assistant with over 10 years of experience in patient Contact - care. Proven track record of enhancing efficiency by 15% and",
+      "2022-02 - Certified Nursing Assistant com - 2025-07 Harmony Health Center. Seattle, WA",
+      "2017-01 - Healthcare Assistant - 2022-01 Greenfield Hospital. Redmond, WA Languages"
+    ],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.1,
+      "phone": 0.9,
+      "headline": 0.7,
+      "summary": 0.25,
+      "links": 0.2,
+      "education": 0.75,
+      "skills": 0.15,
+      "experience": 0.8,
+      "publications": 0.15
+    }
+  }
+}

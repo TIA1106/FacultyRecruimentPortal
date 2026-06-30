@@ -1,0 +1,29 @@
+{
+  "name": "Naman Goyal",
+  "headline": "Jaipur, Rajasthan, India",
+  "location": "",
+  "email": "gnaman180@gmail.com",
+  "phone": "+916377992203",
+  "summary": "Full Stack Developer with practical experience across the entire development lifecycle - from designing REST APIs and optimizing backend performance to building intuitive, responsive frontends.Proven ability to ship impactful projects including an AI-driven language learning platform, a healthcare management system, and a real-time inventory dashboard.Eager to bring strong problem-solving skills and a collaborative mindset to a fast-paced engineering team.EXPERIENCE Teaching Assistant JK Lakshmipat University January 2026 - Present Jaipur Rajasthan , - Assisted 30+ students per lab session in C programming with coding concepts, debugging, and problem-solving, reducing common error rates by ~40%.- Guided and evaluated 50+ students across lab sessions, providing structured feedback that improved average lab performance scores by 15-20%.- Supported faculty across 10+ weekly lab sessions, ensuring smooth operations and maintaining progress tracking for a batch of 60+ students.Full Stack Intern Xorblin January 2026 - March 2026 Jaipur, Rajasthan , - Built 10+ full-stack features for a SaaS web app using React and Express, shipping end-to-end functionality across frontend and backend.- Developed and maintained 15+ REST APIs in Express, optimizing backend response times by ~30% through query optimization.- Designed responsive UI components in React improving user experience across mobile and desktop, reducing layout-related bug reports by ~25%.SKILLS Frameworks &Libraries: Next.js, React, Express.js.Databases & Storage: MongoDB, SQL, Pinecone (Vector DB) | ORM: Prisma.AI: MCP Servers, LLM Applications, RAG.Ai-agents, Machine-Learning.Languages: JavaScript, Python, C, Dart (Flutter).PROJECTS KISAN SAATHI (किसा साथी) - AI Farmer Companion App (Android) github.com/NamNam9252/Farmer - February 2026 - March 2026 - Built an agentic AI assistant in Flutter that navigates 8+ screens and executes voice/text commands, cutting user interaction steps by ~60%.- Integrated bilingual STT + TTS pipeline (Hindi/English) enabling hands-free, voice-first experience for low-literacy farmers.- Enabled image-based crop disease diagnosis supporting 9 crops with on-device offline detection as fallback.BHOLI (Local-Language-Learning Platform) github.com/namnam9252/hackjklu - February 2026 - Built an AI-powered game-based language learning platform with LLM evaluation scoring voice/text inputs for dynamic progression (XP, levels, tasks).- Implemented STT + TTS pipeline with automated flashcard generation, reducing passive learning time by ~40%.- Engineered real-time adaptive difficulty using LLM scoring to improve learner retention and engagement.KIRANA - Inventory & Billing Management System github.com/NamNam9252/Kirana - November 2025 - December 2025 - Built a solo, 20+ module inventory & billing system for local shopkeepers using React + Node.js.- Delivered a real-time dashboard with auto-generated Excel reports, cutting manual reporting by ~70%.- Consolidated 4+ financial workflows (billing, supplier dues, credit, damage) into a single unified platform.ACHIEVEMENT 1st Runner Up - HackJKLU 24hr Hackathon JK Lakshmipat University - 2026 - Link : https://drive.google.com/file/d/1guI4wMDbBJwP7p_i5NZKEtDEv8K8E53y/view?usp=sharing - 24 hours.One idea.A complete working product.EDUCATION B.Tech CSE(AI) JK Lakshmipat University, Jaipur [Sem 4th] CGPA (latest):8.82.- Jaipur,Rajasthan - 2026",
+  "links": [
+    "www.namannn.online",
+    "https://drive.google.com/file/d/1guI4wMDbBJwP7p_i5NZKEtDEv8K8E53y/view?usp=sharing"
+  ],
+  "education": [
+    "B.Tech CSE(AI) | JK Lakshmipat University, Jaipur [Sem 4th] CGPA (latest):8.82.- Jaipur,Rajasthan - 2026",
+    "JK Lakshmipat University, Jaipur [Sem 4th] CGPA (latest):8.82.- Jaipur,Rajasthan - 2026",
+    "JK Lakshmipat University - September 2025"
+  ],
+  "skills": [
+    "Debugging",
+    "Javascript",
+    "MongoDB",
+    "Node.js",
+    "Python",
+    "React",
+    "SQL",
+    "Teaching"
+  ],
+  "experience": [],
+  "publications": []
+}

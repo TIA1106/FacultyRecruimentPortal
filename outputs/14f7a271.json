@@ -1,0 +1,43 @@
+{
+  "name": "Kevin Brown",
+  "headline": "Software Engineer",
+  "location": "Notre Dame, IN",
+  "email": "kevin@hiration.com.Notre",
+  "phone": "(443) 123.4567",
+  "summary": "Tech-savy software professional possessing experience in designing & implementing software solutions by deploying various programming languages. Highly skiled in analyzing software for identifying defects and coordinating with cross-functional teams and stakeholders to resolve issues.",
+  "links": [
+    "www.linkedin.com/in/kevin"
+  ],
+  "education": [
+    "University of Notre Dame Notre Dame, IN | + Received the Goldwater Scholarship | Jun 2020, | © Data Structures | Logic Design | Linear Algebra & Differential Equation | Systems Programming | Computer Architecture | © Operating Systems | Theory of Computing | Programming Paradigms | Probability & Stats | Ethical and Social Issues | Study Abroad Spring Program \"Aug 2019 - Feb 2020",
+    "Dublin City University Dublin, IR | + Learned to speak irish while teaching Spoken English to 10+ local university students",
+    "+ Learned to speak irish while teaching Spoken English to 10+ local university students"
+  ],
+  "skills": [
+    "Application Designing",
+    "Application Maintenance",
+    "Application Maintenance & Testing",
+    "Data Structures and Algorithms",
+    "Debugging",
+    "HTML",
+    "Java",
+    "Javascript",
+    "MongoDB",
+    "MySQL",
+    "Report Generation",
+    "Software Development Life Cycle",
+    "Software Engineering",
+    "Software Testing and Debugging",
+    "Teaching",
+    "Technical Documentation",
+    "Testing"
+  ],
+  "experience": [
+    "Software Engineering Intern \"Oct 2020 - Jan 2021 | Multi Learn Technologies Notre Dame, IN | \"Application Maintenance & Testing",
+    "+ Gained hands-on experience in developing, implementing, and maintaining internal web applications | + Assisted the technical team with the design, and maintenance of 5+ new programs on a monthiy basis",
+    "+ Performed automated and manual tests to ensure the software created by developers is up to date and working properly",
+    "+ Coordinated with the engineering team to identify software imperfections & prepared bug reports for the developers team | Key Achievement",
+    "+ Awarded as the \"Best intern ofthe Month\" for above & beyond performance | Jan 2021"
+  ],
+  "publications": []
+}

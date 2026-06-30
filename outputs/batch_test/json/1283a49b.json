@@ -1,0 +1,80 @@
+{
+  "name": "TIA SUKHNANNI",
+  "headline": "Jaipur, Rajasthan, India",
+  "location": "",
+  "email": "tiasukhnannis@gmail.com",
+  "phone": "7240017609",
+  "summary": "Computer Science (AI) student with hands-on experience in full-stack development and machine learning, building and deploying real-world applications using React, Node.js, MongoDB, and Next.js.Focused on practical problem-solving through clean engineering and rapid learning.",
+  "links": [],
+  "education": [
+    "B.Tech - Computer Science & Engineering (AI) | JK Lakshmipat University (JKLU), Jaipur - 8.86 / 10",
+    "Class XII | Delhi Public School, Jodhpur (CBSE) - 2024 - 91.8%"
+  ],
+  "skills": [
+    "Ai Apis",
+    "Authentication",
+    "Css",
+    "Data Analysis",
+    "Data Science",
+    "Data Visualization",
+    "Deep Learning",
+    "Git",
+    "Go",
+    "HTML",
+    "Javascript",
+    "Machine Learning",
+    "MongoDB",
+    "MySQL",
+    "Node.js",
+    "Numpy",
+    "Pandas",
+    "Python",
+    "React",
+    "scikit-learn",
+    "SQL"
+  ],
+  "experience": [
+    "Hackathon Participant | LNMIIT | January 2026 - January 2026 Jaipur | , | - Participated in LNMIIT Hackathon, building a Web3-based web application under tight time constraints. | - Collaborated with a team to implement decentralized features and wallet/smart contract integration. | - Gained hands-on experience in rapid prototyping, teamwork, and problem-solving in a competitive environment.",
+    "Coordinator | JKLU | September 2025 - September 2025 Jaipur | , | - Coordinator organizer of Tug of War event, managing team formation, fixtures, and match operations. | - Developed coordination, and event management skills under real-time constraints. | - AI-centric blogging platform with AI-powered content creation | - Built using Next.js, AI APIs, authentication, and database-backed publishing. | - Resume builder with optional AI enhancements and manual fallback | - Built using React, Node.js, MongoDB."
+  ],
+  "publications": [],
+  "projects": [
+    "TiaType Pro-AI-First Blogging Platform github.com/TIA1106/tiatype-pro",
+    "Built an AI-first blogging platform using Next.js and AI APIs, enabling AI-powered content creation and editing workflows.",
+    "Implemented authentication and database-backed publishing, supporting secure user access and persistent blog management.",
+    "Designed scalable content workflows with seamless AI integration, focusing on performance, usability, and production-ready architecture.",
+    "TiaSume - Resume Builder (AI-Enhanced) tiasume.vercel.app",
+    "Built an AI-enhanced resume builder using React, Node.js, and MongoDB, supporting both manual resume creation and AI-assisted content enhancement.",
+    "Designed the system to operate independently of AI, ensuring reliable functionality with graceful fallback when AI services are unavailable.",
+    "Deployed the application on Vercel with secure data storage and a responsive, production-ready user experience."
+  ],
+  "achievements": [],
+  "certificates": [
+    "IBM Data Science Professional Certificate",
+    "Completed rigorous training in Python, SQL, data analysis, data visualization, and machine learning.Built and evaluated predictive models using real-world datasets, applied statistical concepts, and followed industry-standard data science workflows through hands-on labs and a capstone project."
+  ],
+  "awards": [
+    "HackerRank Coding Contests - Top performer (Level 1)"
+  ],
+  "involvement": [],
+  "memberships": [],
+  "administrative_works": [],
+  "workshops": [],
+  "advt_no": "",
+  "registration_no": "REG-2026-0302",
+  "post_applied_for": "Jaipur, Rajasthan, India",
+  "specialisation": "Computer Science & Engineering",
+  "dob": "",
+  "age": "",
+  "father_name": "",
+  "mother_name": "",
+  "nationality": "",
+  "place_of_birth": "",
+  "gender_marital_status": "",
+  "category": "",
+  "religion": "",
+  "husband_name": "",
+  "other_category": "",
+  "thesis_info": [],
+  "referees": []
+}

@@ -1,0 +1,26 @@
+{
+  "file_name": "0b76ad02_Doc1.converted.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\0b76ad02_Doc1.converted.pdf",
+  "extraction_method": "ocr",
+  "parsed": {
+    "name": "hendrerit libero",
+    "headline": "lorem ipsum dolor sit amet",
+    "location": "",
+    "email": "hello@reallygreatsite.com",
+    "phone": "+123-456-7890",
+    "summary": "",
+    "links": [],
+    "education": [
+      "(2011 -2015) | WARDIERE UNIVERSITY",
+      "WARDIERE UNIVERSITY",
+      "(2014 -2019) | WARDIERE UNIVERSITY"
+    ],
+    "skills": [],
+    "experience": [
+      "(2020 -2023) | SENIOR GRAPHIC DESIGNER",
+      "Fauget studio * create more than 100 graphic designs | for big companies * complete a lot of complicated work",
+      "(2017 - 2019) | SENIOR GRAPHIC DESIGNER | larana, inc * create more than 100 graphic designs | for big companies * complete a lot of complicated work"
+    ],
+    "publications": []
+  }
+}

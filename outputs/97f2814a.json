@@ -1,0 +1,34 @@
+{
+  "name": "Candidate Name",
+  "email": "tiasukhnannis@gmail.com",
+  "phone": "7240017609",
+  "education": [
+    "LNMIIT, January 2026 - January 2026 Jaipur",
+    "B.Tech - Computer Science & Engineering (AI), JK Lakshmipat University (JKLU), Jaipur - 8.86 / 10",
+    "JK Lakshmipat University (JKLU), Jaipur - 8.86 / 10",
+    "JK Lakshmipat University,Jaipur - 2026"
+  ],
+  "skills": [
+    "Data Analysis",
+    "Data Science",
+    "Data Visualization",
+    "Deep Learning",
+    "Git",
+    "Javascript",
+    "Machine Learning",
+    "Mongodb",
+    "Node.Js",
+    "Numpy",
+    "Pandas",
+    "Python",
+    "React",
+    "SQL",
+    "Scikit-Learn"
+  ],
+  "experience": [
+    "Hackathon Participant | LNMIIT",
+    "January 2026 - January 2026 Jaipur | , - Participated in LNMHACKS 8.0, building a Web3-based web application under tight time constraints. | Coordinator | JKLU",
+    "September 2025 - September 2025 Jaipur | , - Coordinator organizer of Tug of War event, managing team formation, fixtures, and match operations. - Developed coordination, and event management skills under real-time constraints."
+  ],
+  "publications": []
+}

@@ -1,0 +1,52 @@
+N a m a n G o y a l
+J a i p u r , R a j a s t h a n , I n d i a g n a m a n 1 8 0 @ g m a i l . c o m + 9 1 6 3 7 7 9 9 2 2 0 3 i n / n a m a n - g o y a l - b a 1 2 b 1 3 3 3 w w w . n a m a n n n . o n l i n e
+S U M M A R Y
+F u l l S t a c k D e v e l o p e r w i t h p r a c t i c a l e x p e r i e n c e a c r o s s t h e e n t i r e d e v e l o p m e n t l i f e c y c l e — f r o m d e s i g n i n g R E S T A P I s a n d o p t i m i z i n g b a c k e n d p e r f o r m a n c e t o
+b u i l d i n g i n t u i t i v e , r e s p o n s i v e f r o n t e n d s . P r o v e n a b i l i t y t o s h i p i m p a c t f u l p r o j e c t s i n c l u d i n g a n A I - d r i v e n l a n g u a g e l e a r n i n g p l a t f o r m , a h e a l t h c a r e m a n a g e m e n t
+s y s t e m , a n d a r e a l - t i m e i n v e n t o r y d a s h b o a r d . E a g e r t o b r i n g s t r o n g p r o b l e m - s o l v i n g s k i l l s a n d a c o l l a b o r a t i v e m i n d s e t t o a f a s t - p a c e d e n g i n e e r i n g t e a m .
+E X P E R I E N C E
+T e a c h i n g A s s i s t a n t
+, J a n u a r y 2 0 2 6 - P r e s e n t J a i p u r R a j a s t h a n J K L a k s h m i p a t U n i v e r s i t y
+• A s s i s t e d 3 0 + s t u d e n t s p e r l a b s e s s i o n i n C p r o g r a m m i n g w i t h c o d i n g c o n c e p t s , d e b u g g i n g , a n d p r o b l e m - s o l v i n g , r e d u c i n g c o m m o n e r r o r r a t e s b y ~ 4 0 % .
+• G u i d e d a n d e v a l u a t e d 5 0 + s t u d e n t s a c r o s s l a b s e s s i o n s , p r o v i d i n g s t r u c t u r e d f e e d b a c k t h a t i m p r o v e d a v e r a g e l a b p e r f o r m a n c e s c o r e s b y 1 5 – 2 0 % .
+• S u p p o r t e d f a c u l t y a c r o s s 1 0 + w e e k l y l a b s e s s i o n s , e n s u r i n g s m o o t h o p e r a t i o n s a n d m a i n t a i n i n g p r o g r e s s t r a c k i n g f o r a b a t c h o f 6 0 + s t u d e n t s .
+F u l l S t a c k I n t e r n
+, J a n u a r y 2 0 2 6 - M a r c h 2 0 2 6 J a i p u r , R a j a s t h a n X o r b l i n
+• B u i l t 1 0 + f u l l - s t a c k f e a t u r e s f o r a S a a S w e b a p p u s i n g R e a c t a n d E x p r e s s , s h i p p i n g e n d - t o - e n d f u n c t i o n a l i t y a c r o s s f r o n t e n d a n d b a c k e n d .
+• D e v e l o p e d a n d m a i n t a i n e d 1 5 + R E S T A P I s i n E x p r e s s , o p t i m i z i n g b a c k e n d r e s p o n s e t i m e s b y ~ 3 0 % t h r o u g h q u e r y o p t i m i z a t i o n .
+• D e s i g n e d r e s p o n s i v e U I c o m p o n e n t s i n R e a c t i m p r o v i n g u s e r e x p e r i e n c e a c r o s s m o b i l e a n d d e s k t o p , r e d u c i n g l a y o u t - r e l a t e d b u g r e p o r t s b y ~ 2 5 % .
+S K I L L S
+F r a m e w o r k s & L i b r a r i e s : N e x t . j s , R e a c t , E x p r e s s . j s .
+D a t a b a s e s & S t o r a g e : M o n g o D B , S Q L , P i n e c o n e ( V e c t o r D B ) | O R M : P r i s m a .
+A I : M C P S e r v e r s , L L M A p p l i c a t i o n s , R A G , A i - a g e n t s , M a c h i n e - L e a r n i n g .
+L a n g u a g e s : J a v a S c r i p t , P y t h o n , C , D a r t ( F l u t t e r ) .
+P R O J E C T S
+K I S A N S A A T H I ( (cid:0) (cid:0) (cid:0) (cid:0) (cid:0) (cid:0) (cid:0) (cid:0) (cid:0) ) — A I F a r m e r C o m p a n i o n A p p ( A n d r o i d )
+g i t h u b . c o m / N a m N a m 9 2 5 2 / F a r m e r • F e b r u a r y 2 0 2 6 - M a r c h 2 0 2 6
+• B u i l t a n a g e n t i c A I a s s i s t a n t i n F l u t t e r t h a t n a v i g a t e s 8 + s c r e e n s a n d e x e c u t e s v o i c e / t e x t c o m m a n d s , c u t t i n g u s e r i n t e r a c t i o n s t e p s b y ~ 6 0 % .
+• I n t e g r a t e d b i l i n g u a l S T T + T T S p i p e l i n e ( H i n d i / E n g l i s h ) e n a b l i n g h a n d s - f r e e , v o i c e - f i r s t e x p e r i e n c e f o r l o w - l i t e r a c y f a r m e r s .
+• E n a b l e d i m a g e - b a s e d c r o p d i s e a s e d i a g n o s i s s u p p o r t i n g 9 c r o p s w i t h o n - d e v i c e o f f l i n e d e t e c t i o n a s f a l l b a c k .
+B H O L I ( L o c a l - L a n g u a g e - L e a r n i n g P l a t f o r m )
+g i t h u b . c o m / n a m n a m 9 2 5 2 / h a c k j k l u • F e b r u a r y 2 0 2 6
+• B u i l t a n A I - p o w e r e d g a m e - b a s e d l a n g u a g e l e a r n i n g p l a t f o r m w i t h L L M e v a l u a t i o n s c o r i n g v o i c e / t e x t i n p u t s f o r d y n a m i c p r o g r e s s i o n ( X P , l e v e l s , t a s k s ) .
+• I m p l e m e n t e d S T T + T T S p i p e l i n e w i t h a u t o m a t e d f l a s h c a r d g e n e r a t i o n , r e d u c i n g p a s s i v e l e a r n i n g t i m e b y ~ 4 0 % .
+• E n g i n e e r e d r e a l - t i m e a d a p t i v e d i f f i c u l t y u s i n g L L M s c o r i n g t o i m p r o v e l e a r n e r r e t e n t i o n a n d e n g a g e m e n t .
+K I R A N A — I n v e n t o r y & B i l l i n g M a n a g e m e n t S y s t e m
+g i t h u b . c o m / N a m N a m 9 2 5 2 / K i r a n a • N o v e m b e r 2 0 2 5 - D e c e m b e r 2 0 2 5
+• B u i l t a s o l o , 2 0 + m o d u l e i n v e n t o r y & b i l l i n g s y s t e m f o r l o c a l s h o p k e e p e r s u s i n g R e a c t + N o d e . j s .
+• D e l i v e r e d a r e a l - t i m e d a s h b o a r d w i t h a u t o - g e n e r a t e d E x c e l r e p o r t s , c u t t i n g m a n u a l r e p o r t i n g b y ~ 7 0 % .
+• C o n s o l i d a t e d 4 + f i n a n c i a l w o r k f l o w s ( b i l l i n g , s u p p l i e r d u e s , c r e d i t , d a m a g e ) i n t o a s i n g l e u n i f i e d p l a t f o r m .
+A C H I E V E M E N T
+1 s t R u n n e r U p — H a c k J K L U 2 4 h r H a c k a t h o n
+J K L a k s h m i p a t U n i v e r s i t y • 2 0 2 6
+• L i n k : h t t p s : / / d r i v e . g o o g l e . c o m / f i l e / d / 1 g u I 4 w M D b B J w P 7 p _ i 5 N Z K E t D E v 8 K 8 E 5 3 y / v i e w ? u s p = s h a r i n g
+• 2 4 h o u r s . O n e i d e a . A c o m p l e t e w o r k i n g p r o d u c t .
+E D U C A T I O N
+B . T e c h C S E ( A I )
+J K L a k s h m i p a t U n i v e r s i t y , J a i p u r [ S e m 4 t h ] C G P A ( l a t e s t ) : 8 . 8 2 . • J a i p u r , R a j a s t h a n • 2 0 2 6
+I N V O L V E M E N T
+C o r e M e m b e r ( S p a r d h a )
+J K L a k s h m i p a t U n i v e r s i t y • S e p t e m b e r 2 0 2 5
+• C o r e o r g a n i z e r o f T u g o f W a r e v e n t , m a n a g i n g t e a m f o r m a t i o n , f i x t u r e s , a n d m a t c h o p e r a t i o n s .
+• C o n d u c t e d m a t c h e s e n s u r i n g f a i r p l a y a n d s m o o t h e v e n t e x e c u t i o n .
+• D e v e l o p e d l e a d e r s h i p , c o o r d i n a t i o n , a n d e v e n t m a n a g e m e n t s k i l l s u n d e r r e a l - t i m e c o n s t r a i n t s .

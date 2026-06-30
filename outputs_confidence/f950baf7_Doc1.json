@@ -1,0 +1,37 @@
+{
+  "file_name": "f950baf7_Doc1.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\f950baf7_Doc1.pdf",
+  "extraction_method": "ocr_preprocessed",
+  "parsed": {
+    "name": "Canyon Trail Chariotte",
+    "headline": "464 Canyon Trail, Chariotte,",
+    "location": "Charlotte, NC",
+    "email": "",
+    "phone": "(012) 444 6789",
+    "summary": "Motivated entry level high school Enghsh Teacher with expenence teaching multiple subsect disciplines at all grade levels Skilled wn curriculum development student performance improvement and classroom management",
+    "links": [],
+    "education": [
+      "sohnson University West Charlotte NC"
+    ],
+    "skills": [
+      "Curriculum Development",
+      "Teaching"
+    ],
+    "experience": [
+      "© National Board Certted Teacher (NBC T). 2025 - Search image ( i"
+    ],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.1,
+      "phone": 0.9,
+      "headline": 0.7,
+      "summary": 0.7,
+      "links": 0.2,
+      "education": 0.5,
+      "skills": 0.85,
+      "experience": 0.8,
+      "publications": 0.15
+    }
+  }
+}

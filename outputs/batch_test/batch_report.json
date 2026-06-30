@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-06-23T08:02:27.179719Z",
+  "input_dir": "D:\\Faculty Recruitment Portal\\uploads",
+  "count": 20,
+  "ocr_enabled": true,
+  "hybrid_enabled": true,
+  "tesseract_available": true,
+  "failures": [],
+  "pass_count": 20,
+  "fail_count": 0,
+  "finished_at": "2026-06-23T08:03:04.387605Z"
+}

@@ -1,0 +1,35 @@
+{
+  "file_name": "2b999725_0b76ad02_Doc1.docx",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\2b999725_0b76ad02_Doc1.docx",
+  "extraction_method": "docx",
+  "parsed": {
+    "name": "hendrerit libero",
+    "headline": "Lorem ipsum dolor sit_omet",
+    "location": "",
+    "email": "hello@realiygreatsite.com",
+    "phone": "+123-458-7890",
+    "summary": "",
+    "links": [],
+    "education": [
+      "WARDIERE UNIVERSITY",
+      "7 (2014-2019) | WARDIERE UNIVERSITY",
+      "¢ (2020-2023)",
+      "y (2017-2019)"
+    ],
+    "skills": [],
+    "experience": [],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.95,
+      "phone": 0.9,
+      "headline": 0.7,
+      "summary": 0.25,
+      "links": 0.2,
+      "education": 0.75,
+      "skills": 0.15,
+      "experience": 0.15,
+      "publications": 0.15
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "file_name": "e6ac562f_Image_15.pdf",
+  "file_path": "d:\\Faculty Recruitment Portal\\uploads\\e6ac562f_Image_15.pdf",
+  "extraction_method": "ocr_preprocessed",
+  "parsed": {
+    "name": "NatockF Hastam",
+    "headline": "NatockF Hastam",
+    "location": "",
+    "email": "",
+    "phone": "220\n(804) 208-7993",
+    "summary": "",
+    "links": [],
+    "education": [],
+    "skills": [
+      "Canvas",
+      "R",
+      "Teaching"
+    ],
+    "experience": [
+      "An Art Teacher with over If) years of experience on visual arts, creativity and. teaching Possesses a Masters in Education - PROFESSIONAL EXPERIENCE",
+      "Art Teacher duly 2001 Present - © Created an after school art programs for students and facility members interested in art.",
+      "Art Teacher September 1997 July 2001 - @ Maintained facilities such as photographic darkrooms., kilns for ceramic work. studios and store"
+    ],
+    "publications": [],
+    "confidence": {
+      "name": 0.85,
+      "email": 0.1,
+      "phone": 0.9,
+      "headline": 0.7,
+      "summary": 0.25,
+      "links": 0.2,
+      "education": 0.15,
+      "skills": 0.85,
+      "experience": 0.8,
+      "publications": 0.15
+    }
+  }
+}
