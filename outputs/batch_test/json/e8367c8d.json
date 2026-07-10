@@ -1,20 +1,18 @@
 {
   "name": "nendierit hbero",
-  "headline": "Lorem ipsum dolor sit amet.",
+  "headline": "",
   "location": "",
   "email": "helio@reallygreatsite.com",
   "phone": "+123-456-7890",
   "summary": "",
   "links": [],
   "education": [
-    "(2011 -2015) | WARDIERE UNIVERSITY | Bachelor of Design",
-    "(2014 -2019) | WARDIERE UNIVERSITY | Bachelor of Design"
+    "(2011 -2015)"
   ],
   "skills": [],
   "experience": [
-    "(2020 -2023) | SENIOR GRAPHIC DESIGNER",
-    "Fauget studio * create more than 100 graphic designs | tor big companies * complete a lot of complicated work",
-    "(2017 - 2019) | SENIOR GRAPHIC DESIGNER | farana, inc | e create more than 100 graphic designs | for big companies * complete a lot of complicated work"
+    "(2020 -2023) | SENIOR GRAPHIC DESIGNER | Fauget studio | * create more than 100 graphic designs | tor big companies | * complete a lot of complicated work",
+    "(2017 - 2019) | SENIOR GRAPHIC DESIGNER | farana, inc | e create more than 100 graphic designs | for big companies | * complete a lot of complicated work"
   ],
   "publications": [],
   "projects": [],
@@ -26,8 +24,8 @@
   "administrative_works": [],
   "workshops": [],
   "advt_no": "",
-  "registration_no": "REG-2026-7024",
-  "post_applied_for": "Lorem ipsum dolor sit amet.",
+  "registration_no": "REG-2026-3098",
+  "post_applied_for": "",
   "specialisation": "",
   "dob": "",
   "age": "",

@@ -11,8 +11,8 @@
     "M.Tech(CSE) | Acharya Nagarjuna University College | Acharya Nagarjuna University College | 2005 | Distinction with 82%",
     "MCA | KBN College | IGNOU | 2002 | 1st Class with 64.89 %",
     "BCA | KBN College | IGNOU | 2002 | 61.92%",
-    "Diploma in Computers &Engg | Govt.Institute Of | Board of Technical Education | 1993 | Distinction with 79.97%",
-    "S.S.C | ZPPH School, Tadanki | Board of Secondary | 1989 | 86.67%"
+    "Diploma in Computers &Engg | Govt. Institute Of Electronics, Secunderabad. | Board of Technical Education | 1993 | Distinction with 79.97%",
+    "S.S.C | ZPPH School, Tadanki | Board of Secondary Education, HYD. | 1989 | 86.67%"
   ],
   "skills": [
     "Computer Vision",
@@ -30,25 +30,19 @@
   ],
   "publications": [
     "Presented \"Candidate Generation using Partitioning for Frequent Subgraph Mining in a Single Graph\" in National Conference on Recent Advances in Modeling Expert Systems(RAMES),held during 26-28 June,2018 at Department of CSE, National Institute of Technology, Warangal.",
-    "Published a paper on \"Optimized Candidate Generation for Frequent Subgraphs in a Single Graph\" in International Journal of Research in Electronics and Computer Engineering(IJRECE),Vol-7,Issue-2.",
-    "Published a paper on \"Protein Structure Analysis using Graph Mining Techniques\" in Journal of Applied Science and Computations, vol-5, Issue-11.",
-    "Published a paper on \"Mining Specific Content Search Using Clustering Algorithm\" in Global Journal of Engineering Science and Researches (GJESR), ISSN 2348-8034.",
     "Published a paper on \"Frequent and Significant Pattern Mining using Approximate Patterns for Protein Structure Analysis\" in International Journal of Research, vol 5, issue 6, 2018.",
     "Published a paper on \"Fast Canonical Labeling for Graph based Data Mining\", International Journal of Advanced Research in Computer Science and Software Engineering (IJARCSSE), ISSN 2277 128x, Volume 7 Issue 5, 2017.",
     "Published a paper on \"Fast graph Isomorphism Testing for Graph based Data Mining with Improved Canonical Labeling.\", Journal of Engineering and Applied Sciences, ISSN 1816-949x,Volume:11, Issue:7,pp:1586-1597,2016.",
     "Published a paper on \"Finding Frequent Subgraphs in a Single Graph based on symmetry\", International Journal of Computer Applications, ISSN 0975-8887, Volume146-No11,July,2016",
-    "Published a paper on \"Significant Subgraph Mining with Representative Set\", Indian",
     "Journal of Science and Technology, ISSN 0974-6846, Vol- 9(44),DOI:10.17485/IJST/2016/v9i44/95055, November 2016",
-    "Published a paper on \"A Novel Loom for Alacrity for Protected lawsuit dealings using Cloud Computing Environment\" in International Journal of Electrical and Computer Engineering, vol 6, issue 4, pp.1792-1799.",
-    "Published a paper on \"A Cram on Semantic Web Components\" International",
     "Journal of Advanced Research in Computer Science, Vol 6, ISSN :0976-5697 May-2015.",
     "Published a paper on \" A comprehensive Study on generalized search engines versus semantic search engines\" International Journal of Recent and innovative trends in computing and communications Vol: 2 Issue: 4 ISSn:2321-B169, April 2014 757-761",
     "Presented and Published a paperon\"An improved unique canonical labeling for frequent subgraph mining\" inInternational IEEE conference on Advanced Computing Technologies(ICACT), and IEEE Explorer, 21-22 September 2013, 1- 6, ISBN: 978-1-4678-2816-6, Rajampet, India",
-    "Presented a paper on \"Brain Tumor Detection from MRI using Segmentation Techniques\"",
-    "National Conference Recent trends in Information Technology(NCRTIT) Feb 2013,9-13.",
     "Presented \"Cramming of Frequent sub graph mining algorithms\" in National Conference Recent Trends in Information Technology NCRTIT Feb 2013,78-82.",
     "Presented \"A Taxonomy of ILP Based Multi Relational Classification\" in One Day National Conference on Recent Trends in Information Technology on 9th March-2012",
-    "Published a paper on \"A survey on Assorted approaches in Graph Data Mining\" in Internal Journal of Computer Applications, New York, USA, Jan, 2011 edition."
+    "Published a paper on \"A survey on Assorted approaches in Graph Data Mining\" in Internal Journal of Computer Applications, New York, USA, Jan, 2011 edition.",
+    "Published a paper on \"Mobile Agent Based Routing in MANETS- attacks&defenses\", Network Protocols and Algorithms, ISSN 1943- 3581 2011, Vol 3, No 4, pp 108-121.",
+    "Published a paper on \"A study on Mobile Internet Protocol and Mobile Adhoc Network Routing Protocols\" in International journal of Computer Science and Communication, Vol 1, no.2, 2010,pp 185-189."
   ],
   "projects": [
     "Acting as a member of research committee at department",
@@ -97,7 +91,7 @@
   ],
   "workshops": [
     "Attended One week FDP on \"Deep Learning and its Applications\" organized by",
-    "Dept.of IT at PVPSIT in association with E& ICT academy NIT Warangal from",
+    "Dept. of IT at PVPSIT in association with E& ICT academy NIT Warangal from",
     "to 29.06.2019 .",
     "Attended five days Faculty Development Program on \"Outcome Based Education",
     "NBA\" conducted at PVPSIT, organized by NITTTR from 22nd to 26th April, 2019.",
@@ -113,7 +107,7 @@
     "Participated in a two day Faculty Development Program on \"Cloud Infrastructure and"
   ],
   "advt_no": "",
-  "registration_no": "REG-2026-2537",
+  "registration_no": "REG-2026-3072",
   "post_applied_for": "Sr.Asst professor",
   "specialisation": "Information Technology",
   "dob": "29-08-1974",

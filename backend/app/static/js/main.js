@@ -47,25 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const loadingCard = document.getElementById('resultsLoading');
     const resultsDashboard = document.getElementById('resultsDashboard');
     
-    // Dashboard fields
-    const badgeMethod = document.getElementById('badgeMethod');
-    const badgeType = document.getElementById('badgeType');
-    const prevName = document.getElementById('prevName');
-    const prevEmail = document.getElementById('prevEmail');
-    const prevPhone = document.getElementById('prevPhone');
-    const prevEducation = document.getElementById('prevEducation');
-    const prevSkills = document.getElementById('prevSkills');
-    const prevExperience = document.getElementById('prevExperience');
-    const prevPublications = document.getElementById('prevPublications');
-    const prevProjects = document.getElementById('prevProjects');
-    const prevAchievements = document.getElementById('prevAchievements');
-    const prevCertificates = document.getElementById('prevCertificates');
-    const prevAwards = document.getElementById('prevAwards');
-    const jsonViewer = document.getElementById('jsonViewer');
-    
     // Action buttons
     const downloadPdfBtn = document.getElementById('downloadPdfBtn');
-    const copyJsonBtn = document.getElementById('copyJsonBtn');
     
     let selectedFile = null;
     let parsedProfileId = null;
@@ -200,142 +183,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Render results in dashboard cards and JSON preview
     const renderResults = (response) => {
-        const data = response.data;
-        
-        // 1. Badges & Metadata
-        badgeType.textContent = response.file_type.toUpperCase();
-        if (response.extraction_method === 'ocr_scanned') {
-            badgeMethod.textContent = 'OCR Scanned';
-            badgeMethod.className = 'badge';
-            badgeMethod.style.backgroundColor = '#fffbeb';
-            badgeMethod.style.color = '#d97706';
-        } else {
-            badgeMethod.textContent = 'NLP Digital';
-            badgeMethod.className = 'badge';
-            badgeMethod.style.backgroundColor = '#ccfbf1';
-            badgeMethod.style.color = '#0d9488';
-        }
-
-        // 2. Personal Details
-        prevName.textContent = data.name || 'Candidate Name';
-        prevEmail.textContent = data.email || 'Not provided';
-        prevPhone.textContent = data.phone || 'Not provided';
-
-        // 3. Education List
-        prevEducation.innerHTML = '';
-        if (data.education && data.education.length > 0) {
-            data.education.forEach(edu => {
-                const li = document.createElement('li');
-                li.textContent = edu;
-                prevEducation.appendChild(li);
-            });
-        } else {
-            prevEducation.innerHTML = '<li class="no-data">No educational background details extracted.</li>';
-        }
-
-        // 4. Skills Badges
-        prevSkills.innerHTML = '';
-        if (data.skills && data.skills.length > 0) {
-            data.skills.forEach(skill => {
-                const span = document.createElement('span');
-                span.className = 'skill-tag';
-                span.textContent = skill;
-                prevSkills.appendChild(span);
-            });
-        } else {
-            prevSkills.innerHTML = '<span class="no-data">No skills identified.</span>';
-        }
-
-        // 5. Experience List
-        prevExperience.innerHTML = '';
-        if (data.experience && data.experience.length > 0) {
-            data.experience.forEach(exp => {
-                const li = document.createElement('li');
-                li.textContent = exp;
-                prevExperience.appendChild(li);
-            });
-        } else {
-            prevExperience.innerHTML = '<li class="no-data">No professional experience details extracted.</li>';
-        }
-
-        // 6. Projects
-        prevProjects.innerHTML = '';
-        if (data.projects && data.projects.length > 0) {
-            data.projects.forEach(pr => {
-                const li = document.createElement('li');
-                li.textContent = pr;
-                prevProjects.appendChild(li);
-            });
-        } else {
-            prevProjects.innerHTML = '<li class="no-data">No projects identified.</li>';
-        }
-
-        // 7. Achievements
-        prevAchievements.innerHTML = '';
-        if (data.achievements && data.achievements.length > 0) {
-            data.achievements.forEach(ac => {
-                const li = document.createElement('li');
-                li.textContent = ac;
-                prevAchievements.appendChild(li);
-            });
-        } else {
-            prevAchievements.innerHTML = '<li class="no-data">No achievements identified.</li>';
-        }
-
-        // 8. Certificates
-        prevCertificates.innerHTML = '';
-        if (data.certificates && data.certificates.length > 0) {
-            data.certificates.forEach(ct => {
-                const li = document.createElement('li');
-                li.textContent = ct;
-                prevCertificates.appendChild(li);
-            });
-        } else {
-            prevCertificates.innerHTML = '<li class="no-data">No certificates found.</li>';
-        }
-
-        // 9. Awards
-        prevAwards.innerHTML = '';
-        if (data.awards && data.awards.length > 0) {
-            data.awards.forEach(aw => {
-                const li = document.createElement('li');
-                li.textContent = aw;
-                prevAwards.appendChild(li);
-            });
-        } else {
-            prevAwards.innerHTML = '<li class="no-data">No awards or honors identified.</li>';
-        }
-
-        // 6. Publications List
-        prevPublications.innerHTML = '';
-        if (data.publications && data.publications.length > 0) {
-            data.publications.forEach(pub => {
-                const li = document.createElement('li');
-                li.textContent = pub;
-                prevPublications.appendChild(li);
-            });
-        } else {
-            prevPublications.innerHTML = '<li class="no-data">No publications or research output details found.</li>';
-        }
-
-        // 7. Structured JSON Raw Output
-        jsonViewer.textContent = JSON.stringify(data, null, 2);
+        void response;
     };
-
-    // Copy JSON to Clipboard
-    copyJsonBtn.addEventListener('click', () => {
-        const text = jsonViewer.textContent;
-        navigator.clipboard.writeText(text)
-            .then(() => {
-                copyJsonBtn.textContent = 'Copied!';
-                setTimeout(() => {
-                    copyJsonBtn.textContent = 'Copy JSON';
-                }, 2000);
-            })
-            .catch(err => {
-                console.error('Failed to copy JSON:', err);
-            });
-    });
 
     // Download PDF Action Trigger
     downloadPdfBtn.addEventListener('click', () => {

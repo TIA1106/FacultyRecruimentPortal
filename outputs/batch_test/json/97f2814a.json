@@ -1,6 +1,6 @@
 {
-  "name": "TIA SUKHNANNI",
-  "headline": "Jaipur, Rajasthan, India",
+  "name": "Candidate Name",
+  "headline": "",
   "location": "",
   "email": "tiasukhnannis@gmail.com",
   "phone": "7240017609",
@@ -15,22 +15,25 @@
     "Data Visualization",
     "Deep Learning",
     "Git",
+    "Go",
+    "Java",
     "Javascript",
     "Machine Learning",
     "MongoDB",
     "MySQL",
+    "Next.Js",
     "Node.js",
     "Numpy",
     "Pandas",
     "Python",
+    "R",
     "React",
     "scikit-learn",
     "SQL"
   ],
   "experience": [
-    "Hackathon Participant | LNMIIT",
-    "January 2026 - January 2026 Jaipur | , - Participated in LNMHACKS 8.0, building a Web3-based web application under tight time constraints. | Coordinator | JKLU",
-    "September 2025 - September 2025 Jaipur | , - Coordinator organizer of Tug of War event, managing team formation, fixtures, and match operations. - Developed coordination, and event management skills under real-time constraints."
+    "Hackathon Participant | LNMIIT | January 2026 - January 2026 Jaipur | , | - Participated in LNMHACKS 8.0, building a Web3-based web application under tight time constraints.",
+    "Coordinator | JKLU | September 2025 - September 2025 Jaipur | , | - Coordinator organizer of Tug of War event, managing team formation, fixtures, and match operations. | - Developed coordination, and event management skills under real-time constraints."
   ],
   "publications": [],
   "projects": [
@@ -58,8 +61,8 @@
   "administrative_works": [],
   "workshops": [],
   "advt_no": "",
-  "registration_no": "REG-2026-5893",
-  "post_applied_for": "Jaipur, Rajasthan, India",
+  "registration_no": "REG-2026-4473",
+  "post_applied_for": "",
   "specialisation": "Computer Science & Engineering",
   "dob": "",
   "age": "",

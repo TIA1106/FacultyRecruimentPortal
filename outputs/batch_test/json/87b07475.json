@@ -1,6 +1,6 @@
 {
   "name": "Naman Goyal",
-  "headline": "Jaipur, Rajasthan, India",
+  "headline": "",
   "location": "",
   "email": "gnaman180@gmail.com",
   "phone": "+916377992203",
@@ -10,24 +10,25 @@
     "https://drive.google.com/file/d/1guI4wMDbBJwP7p_i5NZKEtDEv8K8E53y/view?usp=sharing"
   ],
   "education": [
-    "B.Tech CSE(AI) | JK Lakshmipat University, Jaipur [Sem 4th] CGPA (latest):8.82. - Jaipur,Rajasthan - 2026 | Core Member (Spardha)",
-    "JK Lakshmipat University - September 2025"
+    "B.Tech CSE(AI) | JK Lakshmipat University, Jaipur [Sem 4th] CGPA (latest):8.82. - Jaipur,Rajasthan - 2026"
   ],
   "skills": [
+    "Ai-Agents",
     "Debugging",
+    "Java",
     "Javascript",
+    "Llm Applications",
     "MongoDB",
     "Node.js",
     "Python",
+    "R",
     "React",
     "SQL",
     "Teaching"
   ],
   "experience": [
-    "Teaching Assistant | JK Lakshmipat University",
-    "January 2026 - Present | Jaipur Rajasthan | , - Assisted 30+ students per lab session in C programming with coding concepts, debugging, and problem-solving, reducing common error rates by ~40%. - Guided and evaluated 50+ students across lab sessions, providing structured feedback that improved average lab performance scores by 15-20%. - Supported faculty across 10+ weekly lab sessions, ensuring smooth operations and maintaining progress tracking for a batch of 60+ students.",
-    "Full Stack Intern | Xorblin",
-    "January 2026 - March 2026 | Jaipur, Rajasthan | , - Built 10+ full-stack features for a SaaS web app using React and Express, shipping end-to-end functionality across frontend and backend. - Developed and maintained 15+ REST APIs in Express, optimizing backend response times by ~30% through query optimization. - Designed responsive UI components in React improving user experience across mobile and desktop, reducing layout-related bug reports by ~25%."
+    "Teaching Assistant | JK Lakshmipat University | January 2026 - Present | Jaipur Rajasthan | , | - Assisted 30+ students per lab session in C programming with coding concepts, debugging, and problem-solving, reducing common error rates by ~40%. | - Guided and evaluated 50+ students across lab sessions, providing structured feedback that improved average lab performance scores by 15-20%. | - Supported faculty across 10+ weekly lab sessions, ensuring smooth operations and maintaining progress tracking for a batch of 60+ students.",
+    "Full Stack Intern | Xorblin | January 2026 - March 2026 | Jaipur, Rajasthan | , | - Built 10+ full-stack features for a SaaS web app using React and Express, shipping end-to-end functionality across frontend and backend. | - Developed and maintained 15+ REST APIs in Express, optimizing backend response times by ~30% through query optimization. | - Designed responsive UI components in React improving user experience across mobile and desktop, reducing layout-related bug reports by ~25%."
   ],
   "publications": [],
   "projects": [
@@ -54,8 +55,8 @@
   "administrative_works": [],
   "workshops": [],
   "advt_no": "",
-  "registration_no": "REG-2026-9449",
-  "post_applied_for": "Jaipur, Rajasthan, India",
+  "registration_no": "REG-2026-3687",
+  "post_applied_for": "",
   "specialisation": "Computer Science & Engineering",
   "dob": "",
   "age": "",

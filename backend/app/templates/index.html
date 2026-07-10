@@ -89,100 +89,11 @@
 
                 <!-- Results Dashboard -->
                 <div class="dashboard hidden" id="resultsDashboard">
-                    <!-- Top Bar -->
-                    <div class="dash-toolbar">
-                        <div class="dash-badges">
-                            <span id="badgeMethod" class="pill pill-teal">NLP Digital</span>
-                            <span id="badgeType" class="pill pill-slate">PDF</span>
-                        </div>
+                    <div class="download-panel">
                         <button id="downloadPdfBtn" class="btn-download">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                             Download PDF
                         </button>
-                    </div>
-
-                    <!-- Results Grid -->
-                    <div class="dash-grid">
-                        <!-- Cards Column -->
-                        <div class="cards-col">
-                            <!-- Profile -->
-                            <div class="result-card">
-                                <h3>Candidate Profile</h3>
-                                <div class="profile-grid">
-                                    <div class="profile-row">
-                                        <span class="label">Name</span>
-                                        <span id="prevName" class="value value-name">—</span>
-                                    </div>
-                                    <div class="profile-row">
-                                        <span class="label">Email</span>
-                                        <span id="prevEmail" class="value">—</span>
-                                    </div>
-                                    <div class="profile-row">
-                                        <span class="label">Phone</span>
-                                        <span id="prevPhone" class="value">—</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Education -->
-                            <div class="result-card">
-                                <h3>Education</h3>
-                                <ul id="prevEducation" class="result-list"></ul>
-                            </div>
-
-                            <!-- Skills -->
-                            <div class="result-card">
-                                <h3>Skills & Competencies</h3>
-                                <div id="prevSkills" class="tags-wrap"></div>
-                            </div>
-
-                            <!-- Experience -->
-                            <div class="result-card">
-                                <h3>Experience</h3>
-                                <ul id="prevExperience" class="result-list"></ul>
-                            </div>
-
-                            <!-- Projects -->
-                            <div class="result-card">
-                                <h3>Projects</h3>
-                                <ul id="prevProjects" class="result-list"></ul>
-                            </div>
-
-                            <!-- Achievements -->
-                            <div class="result-card">
-                                <h3>Achievements</h3>
-                                <ul id="prevAchievements" class="result-list"></ul>
-                            </div>
-
-                            <!-- Certificates -->
-                            <div class="result-card">
-                                <h3>Certificates</h3>
-                                <ul id="prevCertificates" class="result-list"></ul>
-                            </div>
-
-                            <!-- Awards -->
-                            <div class="result-card">
-                                <h3>Awards</h3>
-                                <ul id="prevAwards" class="result-list"></ul>
-                            </div>
-
-                            <!-- Publications -->
-                            <div class="result-card">
-                                <h3>Publications</h3>
-                                <ul id="prevPublications" class="result-list"></ul>
-                            </div>
-                        </div>
-
-                        <!-- JSON Column -->
-                        <div class="json-col">
-                            <div class="json-box">
-                                <div class="json-toolbar">
-                                    <span>JSON Output</span>
-                                    <button id="copyJsonBtn" class="btn-copy">Copy</button>
-                                </div>
-                                <pre id="jsonViewer"><code>{}</code></pre>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>

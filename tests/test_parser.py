@@ -1,6 +1,7 @@
 import unittest
 import sys
 import os
+import tempfile
 
 # Add project root to path so package imports resolve cleanly during test discovery
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -228,6 +229,69 @@ Big Brothers/Big Sisters of Notre Dame and St. Mary's
         fields = extract_faculty_form_fields(sample_pdf)
         self.assertEqual(fields["father_name"], "D.Subrahmanyeswara Rao")
         self.assertEqual(fields["husband_name"], "Dr.D.V.S.Chowdary")
+
+    def test_candidate_pdf_renders_full_json_sections(self):
+        """Test that the PDF generator renders list-backed JSON fields beyond the old two-row caps."""
+        from backend.app.pdf_generator import generate_candidate_pdf
+        import fitz
+
+        candidate_data = {
+            "name": "D.Kavitha",
+            "email": "kavitha_donepudi@yahoo.com",
+            "phone": "9441309716",
+            "post_applied_for": "Sr.Asst professor",
+            "specialisation": "Information Technology",
+            "father_name": "D.Subrahmanyeswara Rao",
+            "husband_name": "Dr.D.V.S.Chowdary",
+            "education": [
+                "Ph.D(CSE) | JNTU Campus | JNTU,Kakinada | December,2018",
+                "M.Tech(CSE) | Acharya Nagarjuna University College | Acharya Nagarjuna University College | 2005 | Distinction with 82%",
+            ],
+            "experience": [
+                "Working as Sr.Assistant professor from March 2010 in Prasad V.Potluri | Siddhartha Institute of Technology, Vijayawada.",
+                "Worked as Assistant professor from Dec 3rd, 2004to Feb 2010 in Prasad V. | Potluri Siddhartha Institute of Technology, Vijayawada.",
+                "Ratified as an Assistant professor from JNTU Kakinada on April 2010 | 2",
+            ],
+            "publications": [
+                "Publication Entry 1, Journal of Testing, 2020",
+                "Publication Entry 2, Journal of Testing, 2021",
+                "Publication Entry 3, Journal of Testing, 2022",
+                "Publication Entry 4, Journal of Testing, 2023",
+                "Publication Entry 5, Journal of Testing, 2024",
+                "Publication Entry 6, Journal of Testing, 2025",
+                "Publication Entry 7, Journal of Testing, 2026",
+                "Publication Entry 8, Journal of Testing, 2027",
+                "Publication Entry 9, Journal of Testing, 2028",
+                "Publication Entry 10, Journal of Testing, 2029",
+                "Publication Entry 11, Journal of Testing, 2030",
+            ],
+            "thesis_info": [],
+            "memberships": ["Life Member of Testing Society"],
+            "achievements": ["Achievement 1"],
+            "administrative_works": ["Administrative Work 1"],
+            "workshops": ["Workshop 1"],
+            "certificates": ["Certificate 1"],
+            "referees": [],
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            output_pdf = os.path.join(tmpdir, "faculty_report.pdf")
+            generate_candidate_pdf(candidate_data, output_pdf)
+
+            self.assertTrue(os.path.exists(output_pdf))
+            self.assertGreater(os.path.getsize(output_pdf), 3000)
+
+            doc = fitz.open(output_pdf)
+            text = "\n".join(page.get_text() for page in doc)
+            doc.close()
+
+            self.assertIn("Ratified as an Assistant professor from JNTU Kakinada on April 2010", text)
+            self.assertIn("Ph.D. in Computer Science & Engineering", text)
+            self.assertIn("JNTU,Kakinada", text)
+            self.assertIn("Publication Entry 11", text)
+            self.assertIn("Administrative Work 1", text)
+            self.assertIn("Workshop 1", text)
+            self.assertIn("Certificate 1", text)
 
 if __name__ == '__main__':
     unittest.main()

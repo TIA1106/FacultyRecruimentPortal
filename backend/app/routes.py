@@ -8,6 +8,44 @@ from backend.app.ocr_engine import extract_text_via_ocr, TESSERACT_AVAILABLE
 from backend.app.nlp_engine import parse_resume_text
 from backend.app.pdf_generator import generate_candidate_pdf
 
+
+def _preview_text(text, limit=220):
+    cleaned = (text or "").strip().replace("\n", " | ")
+    if len(cleaned) <= limit:
+        return cleaned
+    return cleaned[:limit].rstrip() + "..."
+
+
+def _log_processing_block(filename, file_type, is_scanned, raw_text, extraction_method, extracted_text, structured_data, normalized_data, layout_fields, contact_idx, email_idx):
+    debug_payload = {
+        "file": {
+            "name": filename,
+            "type": file_type,
+            "scanned": is_scanned,
+        },
+        "extraction": {
+            "method": extraction_method,
+            "raw_text_length": len(raw_text or ""),
+            "final_text_length": len(extracted_text or ""),
+            "contact_index": contact_idx,
+            "email_index": email_idx,
+            "raw_text_preview": _preview_text(raw_text),
+            "final_text_preview": _preview_text(extracted_text),
+        },
+        "field_snapshot": {
+            "email": structured_data.get("email", ""),
+            "name": structured_data.get("name", ""),
+            "phone": structured_data.get("phone", ""),
+            "layout_fields_used": sorted([key for key, value in layout_fields.items() if value]),
+            "structured_keys": sorted(structured_data.keys()),
+        },
+        "normalized_profile": normalized_data,
+    }
+
+    print("\n========== RESUME PROCESS DEBUG ==========")
+    print(json.dumps(debug_payload, indent=2, ensure_ascii=False))
+    print("========== END RESUME PROCESS DEBUG ==========" )
+
 def register_routes(app):
     @app.route('/')
     def index():
@@ -43,9 +81,6 @@ def register_routes(app):
             is_scanned = parse_result["is_scanned"]
             raw_text = parse_result["raw_text"]
             layout_fields = parse_result.get("layout_fields") or {}
-
-            print(f"[DEBUG] File: {file.filename}, Type: {file_type}, Scanned: {is_scanned}")
-            print(f"[DEBUG] Raw text length: {len(raw_text)}, First 200 chars: {repr(raw_text[:200])}")
 
             # 2. Extract text (digital vs OCR route). Use hybrid fallback when digital text seems insufficient.
             extracted_text = raw_text
@@ -83,20 +118,8 @@ def register_routes(app):
                 except Exception:
                     pass
 
-            print(f"[DEBUG] Extraction method: {extraction_method}, Text length: {len(extracted_text)}")
-
             contact_idx = extracted_text.lower().find('contact')
             email_idx = extracted_text.lower().find('email')
-            print(f"[DEBUG] Contact section index: {contact_idx}, Email keyword index: {email_idx}")
-
-            if email_idx >= 0:
-                start = max(0, email_idx - 100)
-                end = min(len(extracted_text), email_idx + 300)
-                print(f"[DEBUG] Text around 'Email' keyword:\n{repr(extracted_text[start:end])}\n")
-
-            if contact_idx >= 0:
-                end = min(len(extracted_text), contact_idx + 500)
-                print(f"[DEBUG] Text from 'Contact' section:\n{repr(extracted_text[contact_idx:end])}\n")
 
             # 3. Process text through NLP engine
             structured_data = parse_resume_text(extracted_text)
@@ -117,13 +140,22 @@ def register_routes(app):
                 if value and _is_blank_or_placeholder(structured_data.get(key)):
                     structured_data[key] = value
 
-            print(f"[DEBUG] Extracted email: '{structured_data.get('email', 'EMPTY')}'")
-            print(f"[DEBUG] Extracted name: '{structured_data.get('name', 'EMPTY')}'")
-            print(f"[DEBUG] Extracted phone: '{structured_data.get('phone', 'EMPTY')}'")
-            print(f"[DEBUG] Full extracted data keys: {list(structured_data.keys())}")
-
             # 4. Normalize to fixed schema
             normalized_data = normalize_extracted_data(structured_data)
+
+            _log_processing_block(
+                file.filename,
+                file_type,
+                is_scanned,
+                raw_text,
+                extraction_method,
+                extracted_text,
+                structured_data,
+                normalized_data,
+                layout_fields,
+                contact_idx,
+                email_idx,
+            )
 
             # 5. Save structured data to outputs/ folder as JSON
             unique_id = os.path.basename(filepath).split('_')[0]

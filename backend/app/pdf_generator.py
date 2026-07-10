@@ -541,7 +541,7 @@ def parse_experience_entry(exp_str):
                 cand = re.sub(r'\b(?:to|present|current|\-|\–)\b', '', cand, flags=re.IGNORECASE).strip()
                 # Discard if it's too short or just the keyword
                 if cand.lower() != kw and len(cand) > 5:
-                     return cand
+                    return cand
         return ""
         
     org = extract_org_name(exp_str)
@@ -770,6 +770,21 @@ def generate_candidate_pdf(candidate_data, output_path):
         ns = ns.replace('–', '-').replace('—', '-')
         ns = ns.replace('…', '...')
         return ns.strip()
+
+    def _clean_post_title(value):
+        text = _norm(value)
+        if not text:
+            return ""
+        low = text.lower()
+        if any(term in low for term in ["resume", "curriculum vitae", "cv", "name", "address", "email", "mobile", "phone"]):
+            return ""
+        if re.search(r"\b(?:19|20)\d{2}\b", low):
+            return ""
+        if len(text.split()) > 8:
+            return ""
+        if not re.search(r"\b(?:professor|assistant professor|associate professor|lecturer|faculty|engineer|developer|analyst|manager|director|coordinator|consultant|instructor|teacher|tutor|position|post)\b", low):
+            return ""
+        return text
     
     # Custom styles
     title_style = ParagraphStyle(
@@ -852,7 +867,7 @@ def generate_candidate_pdf(candidate_data, output_path):
     # 1. Advertisement and post applied info
     advt_no = _norm(candidate_data.get("advt_no") or "")
     reg_no = _norm(candidate_data.get("registration_no") or "")
-    post = _norm(candidate_data.get("post_applied_for") or "")
+    post = _clean_post_title(candidate_data.get("post_applied_for") or "")
     specialisation = _norm(candidate_data.get("specialisation") or "")
     
     advt_data = [
@@ -1056,9 +1071,26 @@ def generate_candidate_pdf(candidate_data, output_path):
     
     thesis_rows = [thesis_headers]
     thesis_list = candidate_data.get("thesis_info", [])
-    
-    # Ensure at least 2 rows
-    for idx in range(1, 3):
+
+    if not thesis_list:
+        thesis_source_edu = [parse_education_entry(e) for e in candidate_data.get("education", [])]
+        for pe in thesis_source_edu:
+            if pe.get("degree") == "Ph.D.":
+                thesis_title = pe.get("spec", "").strip()
+                if thesis_title:
+                    thesis_title = f"Ph.D. in {thesis_title}"
+                else:
+                    thesis_title = "Ph.D. thesis details not provided"
+                thesis_list.append({
+                    "degree": pe.get("degree", "Ph.D."),
+                    "title": thesis_title,
+                    "guide": "",
+                    "university": pe.get("univ") or pe.get("inst") or "",
+                })
+                break
+
+    thesis_row_count = max(2, len(thesis_list))
+    for idx in range(1, thesis_row_count + 1):
         if idx - 1 < len(thesis_list):
             t = thesis_list[idx - 1]
             row = [
@@ -1184,10 +1216,37 @@ def generate_candidate_pdf(candidate_data, output_path):
                 teaching_exp.append(exp)
             else:
                 teaching_exp.append(exp)
+
+    # Keep the main experience table aligned with the raw JSON list so no entry disappears.
+    display_exp_list = parsed_exp_list if parsed_exp_list else teaching_exp
+
+    def _clean_display_experience(text: str) -> str:
+        cleaned = _norm(text)
+        cleaned = re.sub(r"\s*\|\s*\d+\s*$", "", cleaned)
+        cleaned = re.sub(r"\s{2,}", " ", cleaned).strip(" |,.-")
+        return cleaned
+
+    def _looks_date_like(text: str) -> bool:
+        if not text:
+            return True
+        candidate = str(text).strip().lower()
+        return bool(re.fullmatch(r"(?:\d{4}(?:[-/]\d{2})?|(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+\d{4})", candidate))
+
+    def _safe_experience_org(parsed_row: dict, raw_text: str) -> str:
+        org_text = str(parsed_row.get("org") or "").strip()
+        desig_text = str(parsed_row.get("desig") or "").strip().lower()
+        raw_clean = _clean_display_experience(raw_text)
+        if _looks_date_like(org_text) or org_text in {"Independent/Freelance", "Organization", ""}:
+            return raw_clean
+        if len(org_text) < 4 and raw_clean:
+            return raw_clean
+        if desig_text in {"assistant", "member/associate", "participant"} and raw_clean:
+            return raw_clean
+        return org_text
                 
     # Calculate teaching durations
-    total_pre_teaching = sum(exp.get("pre_years_calculated", 0) for exp in teaching_exp)
-    total_post_teaching = sum(exp.get("post_years_calculated", 0) for exp in teaching_exp)
+    total_pre_teaching = sum(exp.get("pre_years_calculated", 0) for exp in display_exp_list)
+    total_post_teaching = sum(exp.get("post_years_calculated", 0) for exp in display_exp_list)
             
     teaching_exp_str = f"Teaching of Experience      Total Pre Ph.D. Experience : {total_pre_teaching} Yr(s) 0 Months(s)      Total Post Ph.D. Experience : {total_post_teaching} Yr(s). 0 Month (s)"
     story.append(Paragraph(teaching_exp_str, label_style))
@@ -1203,15 +1262,22 @@ def generate_candidate_pdf(candidate_data, output_path):
         Paragraph("Post Ph.D. Exp.", grid_header_style),
         Paragraph("Last Pay Band and Grade Pay", grid_header_style)
     ]
+
+    exp_col_base = [24, 150, 80, 40, 60, 60, 40, 50]
+    exp_scale = usable_width / float(sum(exp_col_base))
+    exp_col = [w * exp_scale for w in exp_col_base]
     
     teaching_rows = [exp_headers]
-    for idx in range(1, 3):
-        if idx - 1 < len(teaching_exp):
-            t = teaching_exp[idx - 1]
+    exp_row_count = max(2, len(display_exp_list))
+    for idx in range(1, exp_row_count + 1):
+        if idx - 1 < len(display_exp_list):
+            t = display_exp_list[idx - 1]
+            raw_exp = raw_exp_list[idx - 1] if idx - 1 < len(raw_exp_list) else ""
+            org_text = _safe_experience_org(t, raw_exp)
             post_exp_str = f"{t['post_years_calculated']} Yr(s)" if t['post_years_calculated'] > 0 else ""
             row = [
                 Paragraph(str(idx), grid_value_style),
-                Paragraph(t["org"], grid_value_style),
+                fit_cell(org_text, grid_value_left_style, exp_col[1], 14),
                 Paragraph(t["desig"], grid_value_style),
                 Paragraph(t["post_phd"], grid_value_style),
                 Paragraph(t["doj"], grid_value_style),
@@ -1232,9 +1298,6 @@ def generate_candidate_pdf(candidate_data, output_path):
             ]
         teaching_rows.append(row)
         
-    exp_col_base = [24, 150, 80, 40, 60, 60, 40, 50]
-    exp_scale = usable_width / float(sum(exp_col_base))
-    exp_col = [w * exp_scale for w in exp_col_base]
     teaching_table = Table(teaching_rows, colWidths=exp_col, rowHeights=[16] + ([14] * (len(teaching_rows) - 1)))
     teaching_table.setStyle(TableStyle([
         ('GRID', (0,0), (-1,-1), 1, colors.black),
@@ -1381,10 +1444,26 @@ def generate_candidate_pdf(candidate_data, output_path):
 
     pub_rows = [pub_headers]
     pubs = candidate_data.get("publications", [])
-    
-    for idx in range(1, 11):
-        if idx - 1 < len(pubs):
-            p = pubs[idx - 1]
+
+    def _looks_like_publication_entry(entry: str) -> bool:
+        if not entry:
+            return False
+        text = _norm(entry)
+        low = text.lower()
+        if any(term in low for term in ["professional responsibilities", "workshop", "fdp", "sttp", "nptel", "subjects handled", "admission team", "project coordinator", "proctor", "class counsellor", "committee", "responsibility"]):
+            return bool(re.search(r"\b(?:19|20)\d{2}\b", low)) and any(term in low for term in ["journal", "conference", "proceedings", "doi", "issn", "isbn", "ieee", "springer", "acm", "elsevier", "vol", "issue", "pp", "scopus"])
+        has_year = bool(re.search(r"\b(?:19|20)\d{2}\b", low))
+        citation_markers = any(term in low for term in ["journal", "conference", "proceedings", "doi", "issn", "isbn", "ieee", "springer", "acm", "elsevier", "vol", "issue", "pp", "scopus", "published", "presented"])
+        return has_year and citation_markers
+
+    filtered_pubs = [p for p in pubs if _looks_like_publication_entry(p)]
+    if not filtered_pubs:
+        filtered_pubs = pubs
+
+    pub_row_count = max(10, len(filtered_pubs))
+    for idx in range(1, pub_row_count + 1):
+        if idx - 1 < len(filtered_pubs):
+            p = filtered_pubs[idx - 1]
             details = parse_publication_details(p)
             # More height so text can wrap without getting tiny.
             row_h = 28
@@ -1525,8 +1604,8 @@ def generate_candidate_pdf(candidate_data, output_path):
     # Text blocks for pay expectation and memberships
     story.append(Paragraph("Additional Professional Declarations", section_title_style))
     
-    pay_expected = candidate_data.get("pay_expected") or ""
-    joining_time = candidate_data.get("joining_time") or ""
+    pay_expected = _norm(candidate_data.get("pay_expected") or "")
+    joining_time = _norm(candidate_data.get("joining_time") or "")
     
     # (i) Professional body memberships — from dedicated memberships field
     memberships_list = candidate_data.get("memberships", []) or []
@@ -1542,11 +1621,16 @@ def generate_candidate_pdf(candidate_data, output_path):
     
     # (iii) Administrative / committee responsibilities
     admin_list = candidate_data.get("administrative_works", []) or []
+    if not admin_list:
+        admin_list = candidate_data.get("projects", []) or []
     admin_str = "; ".join(admin_list) if admin_list else "-"
     
     # (iv) Workshops / FDPs attended
     workshops_list = candidate_data.get("workshops", []) or []
     workshops_str = "; ".join(workshops_list) if workshops_list else "-"
+
+    certificates_list = candidate_data.get("certificates", []) or []
+    certificates_str = "; ".join(certificates_list) if certificates_list else "-"
     
     # Give enough height so long lines wrap at readable size.
     extra_row_h = 40
@@ -1555,6 +1639,9 @@ def generate_candidate_pdf(candidate_data, output_path):
         [fit_cell(f"(b) Time required to join the institure, If Selected: - {joining_time}", label_style, usable_width, extra_row_h)],
         [fit_cell(f"(i) Memberships/Fellowship and position of responsibility in Professional Societies : - {memberships_str}", label_style, usable_width, extra_row_h)],
         [fit_cell(f"(ii) Achievements in sports and extra-curricular activities (including N.C.C.) :- {achievements_str}", label_style, usable_width, extra_row_h)],
+        [fit_cell(f"(iii) Administrative / committee responsibilities : - {admin_str}", label_style, usable_width, extra_row_h)],
+        [fit_cell(f"(iv) Workshops / FDPs attended : - {workshops_str}", label_style, usable_width, extra_row_h)],
+        [fit_cell(f"(v) Certificates / training : - {certificates_str}", label_style, usable_width, extra_row_h)],
     ]
     extra_table = Table(extra_data, colWidths=[usable_width], rowHeights=[extra_row_h] * len(extra_data))
     extra_table.setStyle(TableStyle([

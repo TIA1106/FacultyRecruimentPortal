@@ -445,14 +445,37 @@ def extract_headline(text, name=""):
         return ""
 
     blocked = {"summary", "education", "skills", "experience", "publications", "contact"}
+
+    def _looks_like_role(line: str) -> bool:
+        low = re.sub(r"\s+", " ", line.lower()).strip()
+        if not low:
+            return False
+        if any(term in low for term in ["resume", "curriculum vitae", "cv", "contact", "address", "email", "mobile", "phone"]):
+            return False
+        if re.search(r"\b(?:19|20)\d{2}\b", low):
+            return False
+        role_terms = [
+            "professor", "assistant professor", "associate professor", "lecturer", "faculty",
+            "researcher", "scientist", "engineer", "developer", "analyst", "manager",
+            "director", "coordinator", "consultant", "instructor", "teacher", "tutor",
+            "position", "applied for", "faculty position", "post", "vacancy"
+        ]
+        return any(term in low for term in role_terms)
+
     for line in lines[1:4]:
         lower = line.lower().strip()
-        if lower not in blocked and not _is_heading_line(line) and len(line) <= 80:
+        if lower not in blocked and not _is_heading_line(line) and len(line) <= 80 and _looks_like_role(line):
             if name:
                 cleaned_name = re.sub(r'[^a-zA-Z]', '', name).lower()
                 cleaned_line = re.sub(r'[^a-zA-Z]', '', line).lower()
                 if cleaned_name in cleaned_line or cleaned_line in cleaned_name:
                     continue
+            cleaned = re.sub(r'^["\'\s]+|["\'\s]+$', '', line).strip()
+            if any(ch.isalpha() for ch in cleaned):
+                return cleaned
+
+    for line in lines[:6]:
+        if _looks_like_role(line):
             cleaned = re.sub(r'^["\'\s]+|["\'\s]+$', '', line).strip()
             if any(ch.isalpha() for ch in cleaned):
                 return cleaned
@@ -1267,6 +1290,22 @@ def extract_publications(text):
         if curr_pub:
             publications_list.append(curr_pub)
 
+    def _looks_like_publication_item(item: str) -> bool:
+        if not item:
+            return False
+        low = re.sub(r'\s+', ' ', item).lower().strip()
+        if any(term in low for term in ["professional responsibilities", "workshop", "fdp", "sttp", "nptel", "subjects handled", "admission team", "project coordinator", "proctor", "class counsellor", "committee", "responsibility", "teaching", "handled various theory", "guided students", "internal examiner", "external examiner", "membership", "resume", "profile", "subjects handled*"]):
+            return False
+        if re.search(r'\b(?:responsibilities|workshops|fdp|sttp|nptel|membership|subjects handled|admission team|project coordinator|proctor|class counsellor|committee|teaching)\b', low):
+            return False
+        has_year = bool(re.search(r'\b(?:19|20)\d{2}\b', low))
+        strong_markers = any(term in low for term in ["journal", "proceedings", "transactions", "letters", "review", "ieee", "springer", "acm", "elsevier", "doi", "issn", "isbn", "vol", "issue", "pp"])
+        title_like = '"' in low or "'" in low
+        conference_like = bool(re.search(r'\bconference\b', low))
+        return has_year and ((strong_markers and not re.search(r'\b(resume|responsibilit|workshop|fdp|sttp|nptel|committee|admission team|subjects handled)\b', low)) or (conference_like and (strong_markers or title_like)))
+
+    publications_list = [p for p in publications_list if _looks_like_publication_item(p)]
+
     if not publications_list:
         for line in lines:
             line_lower = line.lower()
@@ -1746,8 +1785,31 @@ def parse_resume_text(text):
     parsed["advt_no"] = ""
     parsed["registration_no"] = f"REG-2026-{abs(hash(parsed['name'])) % 10000:04d}" if parsed["name"] else ""
 
-    # post_applied_for: use raw headline as-is (do not fabricate prefix)
-    parsed["post_applied_for"] = parsed["headline"] if parsed["headline"] else ""
+    # post_applied_for: only keep a headline if it actually looks like a role/post title.
+    headline = parsed.get("headline", "") or ""
+    if re.search(r"\b(?:professor|assistant professor|associate professor|lecturer|faculty|engineer|developer|analyst|manager|director|coordinator|consultant|instructor|teacher|tutor|position|post)\b", headline, re.IGNORECASE):
+        parsed["post_applied_for"] = headline
+    else:
+        parsed["post_applied_for"] = ""
+
+    def _clean_family_name(value):
+        cleaned = re.sub(r"\s+", " ", (value or "")).strip().strip(":,-")
+        if not cleaned:
+            return ""
+        low = cleaned.lower()
+        invalid_tokens = {
+            "male", "female", "married", "unmarried", "single", "widow", "widower",
+            "occupation", "name", "father", "mother", "husband", "wife", "religion",
+            "nationality", "address", "tongue", "dob", "age"
+        }
+        if low in invalid_tokens:
+            return ""
+        if any(tok in low for tok in ["occupation", "marital", "gender", "address", "name:"]):
+            return ""
+        return cleaned
+
+    parsed["father_name"] = _clean_family_name(parsed.get("father_name"))
+    parsed["mother_name"] = _clean_family_name(parsed.get("mother_name"))
 
     # specialisation: prefer department/subject area from education, not random skills
     spec_from_edu = ""
@@ -1888,6 +1950,12 @@ def parse_resume_text(text):
 
     awards = parsed.get('awards') or []
     confidences['awards'] = 0.75 if awards else 0.12
+
+    # Final sanity pass before returning parsed JSON.
+    parsed['father_name'] = _clean_family_name(parsed.get('father_name'))
+    parsed['mother_name'] = _clean_family_name(parsed.get('mother_name'))
+    if parsed.get('post_applied_for') and not re.search(r"\b(?:professor|assistant professor|associate professor|lecturer|faculty|engineer|developer|analyst|manager|director|coordinator|consultant|instructor|teacher|tutor|position|post)\b", parsed.get('post_applied_for', ''), re.IGNORECASE):
+        parsed['post_applied_for'] = ""
 
     parsed['confidence'] = confidences
     return parsed
